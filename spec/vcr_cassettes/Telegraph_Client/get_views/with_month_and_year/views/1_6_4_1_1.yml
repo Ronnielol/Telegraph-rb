@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.telegra.ph/getViews
+    body:
+      encoding: UTF-8
+      string: '{"path":"Tysyachelikij-geroj-Part-11-12-05","month":12,"year":2017,"access_token":"a24dbcafbd49a962e4a7f5842410afdb07e49f0f7ac108a3c68146e75ca5"}'
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Fri, 08 Dec 2017 13:21:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '52'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"views":0}}'
+    http_version: 
+  recorded_at: Fri, 08 Dec 2017 13:21:03 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.telegra.ph/createAccount
+    body:
+      encoding: UTF-8
+      string: '{"short_name":"test_name","author_name":"test_author","author_url":"http://author.com","access_token":"8ebb24b6d94032488301db7c9550770f788327c42e8fc5ede73126600c5d"}'
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Thu, 30 Nov 2017 12:34:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '223'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"short_name":"test_name","author_name":"test_author","author_url":"http:\/\/author.com\/","access_token":"60da86d82628f46f7c691d5b3cbcdaa0ca7c4f0209264f967baf4d0f3aa4","auth_url":"https:\/\/edit.telegra.ph\/auth\/TZLS0SsC7EXSUekbxTnznXv3AzDh67pX5aP33gF8SA"}}'
+    http_version: 
+  recorded_at: Thu, 30 Nov 2017 12:34:44 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.telegra.ph/getPage
+    body:
+      encoding: UTF-8
+      string: '{"path":"keka-11-30-2","return_content":true,"access_token":"a24dbcafbd49a962e4a7f5842410afdb07e49f0f7ac108a3c68146e75ca5"}'
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.6.2
+      Date:
+      - Thu, 30 Nov 2017 17:45:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '149'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"path":"keka-11-30-2","url":"http:\/\/telegra.ph\/keka-11-30-2","title":"keka","description":"Hello","content":[{"tag":"p","children":["Hello"]}],"views":1}}'
+    http_version: 
+  recorded_at: Thu, 30 Nov 2017 17:45:55 GMT
+recorded_with: VCR 3.0.3
