@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.telegra.ph/createAccount
+    body:
+      encoding: UTF-8
+      string: '{"short_name":"test_name","author_name":"test_author","author_url":"http://testauthorlink.com"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Tue, 27 Feb 2018 18:54:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '227'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"short_name":"test_name","author_name":"test_author","author_url":"http:\/\/testauthorlink.com\/","access_token":"4f2bef964d26e0d417ed5a784ba4f24f2d17cb452a516cb5a12b580b9c3f","auth_url":"https:\/\/edit.telegra.ph\/auth\/szXfmvBjGq3QELZh8HcafC68E21qiQbKp6XLzw2gV6"}}'
+    http_version: 
+  recorded_at: Tue, 27 Feb 2018 18:55:48 GMT
+- request:
+    method: get
+    uri: https://api.telegra.ph/getPageList?access_token=4f2bef964d26e0d417ed5a784ba4f24f2d17cb452a516cb5a12b580b9c3f&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Tue, 27 Feb 2018 18:54:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '67'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"total_count":0,"pages":[]}}'
+    http_version: 
+  recorded_at: Tue, 27 Feb 2018 18:55:48 GMT
+recorded_with: VCR 3.0.3

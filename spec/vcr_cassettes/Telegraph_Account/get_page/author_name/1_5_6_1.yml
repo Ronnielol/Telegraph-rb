@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.telegra.ph/createAccount
+    body:
+      encoding: UTF-8
+      string: '{"short_name":"test_name","author_name":"test_author","author_url":"http://testauthorlink.com"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Tue, 27 Feb 2018 18:22:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '227'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"short_name":"test_name","author_name":"test_author","author_url":"http:\/\/testauthorlink.com\/","access_token":"71d43128296edf4173a56d427392758b807383721069de0caee750efa253","auth_url":"https:\/\/edit.telegra.ph\/auth\/I8gnLF7m2Moe8EkRL7tmQrGhxNdqV6xDfLZYq6ktTG"}}'
+    http_version: 
+  recorded_at: Tue, 27 Feb 2018 18:23:06 GMT
+- request:
+    method: get
+    uri: https://api.telegra.ph/getPage?access_token=71d43128296edf4173a56d427392758b807383721069de0caee750efa253&path=test-title-02-21-4&return_content=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Tue, 27 Feb 2018 18:22:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '165'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"path":"test-title-02-21-4","url":"http:\/\/telegra.ph\/test-title-02-21-4","title":"test
+        title","description":"Hello, world!","author_name":"test_author","author_url":"http:\/\/testauthorlink.com\/","views":0}}'
+    http_version: 
+  recorded_at: Tue, 27 Feb 2018 18:23:06 GMT
+recorded_with: VCR 3.0.3

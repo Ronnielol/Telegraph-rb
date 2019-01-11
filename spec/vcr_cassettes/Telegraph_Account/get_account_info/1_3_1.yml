@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.telegra.ph/createAccount
+    body:
+      encoding: UTF-8
+      string: '{"short_name":"test_name","author_name":"test_author","author_url":"http://testauthorlink.com"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Wed, 21 Feb 2018 10:23:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '227'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"short_name":"test_name","author_name":"test_author","author_url":"http:\/\/testauthorlink.com\/","access_token":"ff78e4fdfef9600fa42a3b6423962bd079a40c243639ff7fd1bdf6c329ff","auth_url":"https:\/\/edit.telegra.ph\/auth\/NQIcC3mUHuY3cqWbzJWBd4C5EMDP2M0PCGZcJk6pO2"}}'
+    http_version: 
+  recorded_at: Wed, 21 Feb 2018 10:24:26 GMT
+- request:
+    method: get
+    uri: https://api.telegra.ph/getAccountInfo?access_token=ff78e4fdfef9600fa42a3b6423962bd079a40c243639ff7fd1bdf6c329ff&fields=%5B%22short_name%22,%22author_name%22,%22author_url%22,%22auth_url%22,%22page_count%22%5D
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Wed, 21 Feb 2018 10:23:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '179'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"short_name":"test_name","author_name":"test_author","author_url":"http:\/\/testauthorlink.com\/","auth_url":"https:\/\/edit.telegra.ph\/auth\/PccWJtzLHULXUXua5808IeKaenkCjgx7qJ37aAQQvA","page_count":0}}'
+    http_version: 
+  recorded_at: Wed, 21 Feb 2018 10:24:26 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.telegra.ph/createAccount
+    body:
+      encoding: UTF-8
+      string: '{"short_name":"test_name","author_name":"test_author","author_url":"http://testauthorlink.com"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Wed, 21 Feb 2018 08:59:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '225'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"short_name":"test_name","author_name":"test_author","author_url":"http:\/\/testauthorlink.com\/","access_token":"ae3f44ccb3a79c8ae974bba7a9c5022ee4e952a4f5b3a759c7fc5217162f","auth_url":"https:\/\/edit.telegra.ph\/auth\/n499UqLCksXO6xMRtjsUcC4DsBBWW6Ui84r3uaFNDA"}}'
+    http_version: 
+  recorded_at: Wed, 21 Feb 2018 09:00:12 GMT
+- request:
+    method: get
+    uri: https://api.telegra.ph/getAccountInfo?access_token=ae3f44ccb3a79c8ae974bba7a9c5022ee4e952a4f5b3a759c7fc5217162f
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.12.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Wed, 21 Feb 2018 08:59:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"short_name":"test_name","author_name":"test_author","author_url":"http:\/\/testauthorlink.com\/"}}'
+    http_version: 
+  recorded_at: Wed, 21 Feb 2018 09:00:12 GMT
+recorded_with: VCR 3.0.3
