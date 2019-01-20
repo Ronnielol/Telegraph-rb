@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.telegra.ph/editPage
+    body:
+      encoding: UTF-8
+      string: '{"path":"Sample-Page-12-15","title":"New Title","content":[{"tag":"p","children":["Hello,
+        world!"]}],"author_name":null,"author_url":null,"access_token":"a24dbcafbd49a962e4a7f5842410afdb07e49f0f7ac108a3c68146e75ca5"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Sun, 20 Jan 2019 09:13:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '61'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":false,"error":"PAGE_ACCESS_DENIED"}'
+    http_version: 
+  recorded_at: Sun, 20 Jan 2019 09:13:31 GMT
+recorded_with: VCR 4.0.0

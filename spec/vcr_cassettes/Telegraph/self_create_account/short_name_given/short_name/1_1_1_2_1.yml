@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.telegra.ph/createAccount
+    body:
+      encoding: UTF-8
+      string: '{"short_name":"test_name","author_name":"test_author","author_url":"http://author.com"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Thu, 17 Jan 2019 19:25:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '221'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"short_name":"test_name","author_name":"test_author","author_url":"http:\/\/author.com\/","access_token":"fd8545128f2b30a8d3af22f903847df802d34a23e05cb14fef914b95dcae","auth_url":"https:\/\/edit.telegra.ph\/auth\/jp2mISLcDzj8H9sxnP9U9TjnkarRPkg8Kjtq9eCKNT"}}'
+    http_version: 
+  recorded_at: Thu, 17 Jan 2019 19:25:13 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,770 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.telegra.ph/getPageList?access_token=a24dbcafbd49a962e4a7f5842410afdb07e49f0f7ac108a3c68146e75ca5&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Sun, 20 Jan 2019 08:50:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '15629'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"total_count":610,"pages":[{"path":"Sample-Page-01-17-16","url":"https:\/\/telegra.ph\/Sample-Page-01-17-16","title":"Sample
+        Page","description":"Hello, world!","author_name":"Anonymous","author_url":"http:\/\/author.com\/","views":0,"can_edit":true},{"path":"Sample-Page-01-14-29","url":"https:\/\/telegra.ph\/Sample-Page-01-14-29","title":"Sample
+        Page","description":"Hello, world!","author_name":"Anonymous","author_url":"http:\/\/author.com\/","views":0,"can_edit":true},{"path":"Sample-Page-01-14-28","url":"https:\/\/telegra.ph\/Sample-Page-01-14-28","title":"Sample
+        Page","description":"Hello, world!","author_name":"Anonymous","author_url":"http:\/\/author.com\/","views":0,"can_edit":true},{"path":"Sample-Page-01-14-27","url":"https:\/\/telegra.ph\/Sample-Page-01-14-27","title":"Sample
+        Page","description":"Hello, world!","author_name":"Anonymous","author_url":"http:\/\/author.com\/","views":0,"can_edit":true},{"path":"Sample-Page-01-14-26","url":"https:\/\/telegra.ph\/Sample-Page-01-14-26","title":"Sample
+        Page","description":"Hello, world!","author_name":"Anonymous","author_url":"http:\/\/author.com\/","views":0,"can_edit":true},{"path":"Zanoni-sbornik-Part-7114-12-22","url":"https:\/\/telegra.ph\/Zanoni-sbornik-Part-7114-12-22","title":"\u0417\u0430\u043d\u043e\u043d\u0438
+        (\u0441\u0431\u043e\u0440\u043d\u0438\u043a) (Part 7\/114)","description":"\u2013\u00a0\u041d\u043e,\u00a0\u2013
+        \u0432\u043e\u0437\u0440\u0430\u0437\u0438\u043b \u0441\u0435\u0440\u044c\u0435\u0437\u043d\u044b\u0439
+        \u0433\u043e\u0441\u043f\u043e\u0434\u0438\u043d,\u00a0\u2013 \u0432 \u044d\u0442\u043e\u043c-\u0442\u043e
+        \u0438 \u0435\u0441\u0442\u044c \u0442\u0430\u0439\u043d\u0430. \u0421\u0442\u0430\u0440\u044b\u0439
+        \u0410\u0432\u0435\u043b\u043b\u0438 \u0443\u0432\u0435\u0440\u044f\u0435\u0442,
+        \u0447\u0442\u043e \u0417\u0430\u043d\u043e\u043d\u0438 \u043d\u0438 \u043d\u0430
+        \u043e\u0434\u0438\u043d \u0434\u0435\u043d\u044c \u043d\u0435 \u043a\u0430\u0436\u0435\u0442\u0441\u044f
+        \u0441\u0442\u0430\u0440\u0448\u0435 \u0442\u043e\u0433\u043e, \u043a\u0430\u043a\u0438\u043c
+        \u043e\u043d \u0432\u0438\u0434\u0435\u043b \u0435\u0433\u043e \u0432 \u041c\u0438\u043b\u0430\u043d\u0435.
+        \u041e\u043d \u043f\u0440\u0438\u0431\u0430\u0432\u043b\u044f\u0435\u0442,
+        \u0447\u0442\u043e \u0434\u0430\u0436\u0435 \u0432 \u041c\u0438\u043b\u0430\u043d\u0435,
+        \u0437\u0430\u043c\u0435\u0442\u044c\u0442\u0435 \u044d\u0442\u043e, \u0433\u0434\u0435,
+        \u043f\u043e\u0434 \u0434\u0440\u0443\u0433\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c,
+        \u0417\u0430\u043d\u043e\u043d\u0438 \u044f\u0432\u0438\u043b\u0441\u044f
+        \u0441 \u0442\u043e\u044e \u0436\u0435 \u0440\u043e\u0441\u043a\u043e\u0448\u044c\u044e,
+        \u0441 \u0442\u043e\u044e \u0436\u0435 \u0442\u0430\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c\u044e,
+        \u043e\u0434\u0438\u043d \u0441\u0442\u0430\u0440\u0438\u043a \u0432\u0441\u043f\u043e\u043c\u043d\u0438\u043b,
+        \u0447\u0442\u043e \u0432\u0438\u0434\u0435\u043b \u0435\u0433\u043e \u0448\u0435\u0441\u0442\u044c\u0434\u0435\u0441\u044f\u0442
+        \u043b\u0435\u0442 \u0442\u043e\u043c\u0443 \u043d\u0430\u0437\u0430\u0434
+        \u0432 \u0428\u0432\u0435\u0446\u0438\u0438.\n\u2013\u00a0\u0411\u0430!\u00a0\u2013
+        \u0432\u043e\u0441\u043a\u043b\u0438\u043a\u043d\u0443\u043b \u0426\u0435\u0442\u043e\u043a\u0441\u0430.\u00a0\u2013
+        \u0422\u043e \u0436\u0435 \u0441\u0430\u043c\u043e\u0435 \u0433\u043e\u0432\u043e\u0440\u044f\u0442
+        \u043e \u0448\u0430\u0440\u043b\u0430\u0442\u0430\u043d\u0435 \u041a\u0430\u043b\u0438\u043e\u0441\u0442\u0440\u043e;
+        \u0447\u0438\u0441\u0442\u044b\u0435 \u0431\u0430\u0441\u043d\u0438. \u042f
+        \u043f\u043e\u0432\u0435\u0440\u044e \u0438\u043c, \u043a\u043e\u0433\u0434\u0430
+        \u0443\u0432\u0438\u0436\u0443 \u044d\u0442\u043e\u0442 \u0431\u0440\u0438\u043b\u043b\u0438\u0430\u043d\u0442
+        \u043f\u0440\u0435\u0432\u0440\u0430\u0442\u0438\u0432\u0448\u0438\u043c\u0441\u044f
+        \u0432\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Zanoni-sbornik-Part-6114-12-20","url":"https:\/\/telegra.ph\/Zanoni-sbornik-Part-6114-12-20","title":"\u0417\u0430\u043d\u043e\u043d\u0438
+        (\u0441\u0431\u043e\u0440\u043d\u0438\u043a) (Part 6\/114)","description":"\u041e\u043d
+        \u0437\u0430\u043c\u043e\u043b\u0447\u0430\u043b. \u0421\u0435\u0440\u0434\u0446\u0435
+        \u0412\u0438\u043e\u043b\u044b \u0441\u0438\u043b\u044c\u043d\u043e \u0431\u0438\u043b\u043e\u0441\u044c.
+        \u041f\u043e\u0442\u043e\u043c, \u0435\u0434\u0432\u0430 \u043f\u043e\u043d\u0438\u043c\u0430\u044f
+        \u0441\u0438\u043b\u0443 \u0435\u0433\u043e \u0441\u043e\u0432\u0435\u0442\u043e\u0432,
+        \u043e\u043d\u0430 \u0432\u043e\u0441\u043a\u043b\u0438\u043a\u043d\u0443\u043b\u0430
+        \u0441\u043e \u0432\u0437\u0440\u044b\u0432\u043e\u043c \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e
+        \u0438 \u043d\u0435\u0432\u0438\u043d\u043d\u043e\u0433\u043e \u0432\u043e\u043b\u043d\u0435\u043d\u0438\u044f:\n\u2013\u00a0\u0410\u0445,
+        \u0432\u0430\u0448\u0435 \u0441\u0438\u044f\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e,
+        \u0432\u044b \u043d\u0435 \u0437\u043d\u0430\u0435\u0442\u0435, \u043a\u0430\u043a
+        \u043c\u043d\u0435 \u0443\u0436\u0435 \u0434\u043e\u0440\u043e\u0433 \u044d\u0442\u043e\u0442
+        \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0439 \u043e\u0447\u0430\u0433.
+        \u0410 \u043c\u043e\u0439 \u043e\u0442\u0435\u0446!.. \u0411\u0435\u0437 \u043d\u0435\u0433\u043e,
+        \u0441\u0438\u043d\u044c\u043e\u0440, \u044d\u0442\u043e\u0442 \u043e\u0447\u0430\u0433
+        \u043d\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e\u0432\u0430\u043b
+        \u0431\u044b!\n\u0422\u0435\u043c\u043d\u0430\u044f \u0442\u0443\u0447\u043a\u0430
+        \u043f\u0440\u043e\u0431\u0435\u0436\u0430\u043b\u0430 \u043f\u043e \u043b\u0438\u0446\u0443
+        \u043c\u043e\u043b\u043e\u0434\u043e\u0433\u043e \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430.
+        \u041e\u043d \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u043b \u043d\u0430
+        \u043c\u0438\u0440\u043d\u044b\u0439 \u0434\u043e\u043c, \u043f\u043e\u0447\u0442\u0438
+        \u043f\u043e\u0433\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u0439 \u0432
+        \u0437\u0435\u043b\u0435\u043d\u044c \u0432\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043d\u044b\u0445
+        \u043a\u0443\u0441\u0442\u043e\u0432, \u043f\u043e\u0442\u043e\u043c \u043f\u0435\u0440\u0435\u0432\u0435\u043b
+        \u0441\u0432\u043e\u0439 \u0432\u0437\u0433\u043b\u044f\u0434 \u043d\u0430
+        \u043e\u0436\u0438\u0432\u043b\u0435\u043d\u043d\u043e\u0435 \u043b\u0438\u0446\u043e
+        \u0434\u0435\u0432\u0443\u0448\u043a\u0438.\n\u2013\u00a0\u0425\u043e\u0440\u043e\u0448\u043e,\u00a0\u2013
+        \u0441\u043a\u0430\u0437\u0430\u043b \u043e\u043d.\u00a0\u2013 \u041f\u0440\u043e\u0441\u0442\u043e\u0435
+        \u0441\u0435\u0440\u0434\u0446\u0435 \u0447\u0430\u0441\u0442\u043e \u0441\u043b\u0443\u0436\u0438\u0442
+        \u0441\u0435\u0431\u0435\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Zanoni-sbornik-Part-5114-12-20","url":"https:\/\/telegra.ph\/Zanoni-sbornik-Part-5114-12-20","title":"\u0417\u0430\u043d\u043e\u043d\u0438
+        (\u0441\u0431\u043e\u0440\u043d\u0438\u043a) (Part 5\/114)","description":"\u041a\u0430\u043a
+        \u043d\u0435\u0436\u0435\u043d \u0431\u044b\u043b \u043f\u043e\u0446\u0435\u043b\u0443\u0439
+        \u043e\u0442\u0446\u0430 \u0438 \u0434\u043e\u0447\u0435\u0440\u0438, \u0432\u043e\u0437\u0432\u0440\u0430\u0449\u0430\u0432\u0448\u0438\u0445\u0441\u044f
+        \u0441\u043d\u043e\u0432\u0430 \u043f\u043e \u0431\u0435\u0437\u043b\u044e\u0434\u043d\u044b\u043c
+        \u0443\u043b\u0438\u0446\u0430\u043c \u0432 \u043a\u0430\u0440\u0435\u0442\u0435
+        \u043a\u0430\u0440\u0434\u0438\u043d\u0430\u043b\u0430.\n\u041d\u0435 \u0431\u0443\u0434\u0435\u043c
+        \u043e\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0442\u044c\u0441\u044f
+        \u043d\u0430 \u0432\u043e\u0441\u043f\u043e\u043c\u0438\u043d\u0430\u043d\u0438\u044f\u0445
+        \u043e \u0441\u043b\u0435\u0437\u0430\u0445 \u0438 \u0432\u043e\u0441\u043a\u043b\u0438\u0446\u0430\u043d\u0438\u044f\u0445
+        \u0434\u043e\u0431\u0440\u043e\u0439 \u0438 \u043f\u0440\u043e\u0441\u0442\u043e\u0439
+        \u043c\u0430\u0442\u0435\u0440\u0438\u2026\n\u0412\u043e\u0442 \u043e\u043d\u0438
+        \u0432\u0435\u0440\u043d\u0443\u043b\u0438\u0441\u044c; \u0432\u043e\u0442
+        \u0445\u043e\u0440\u043e\u0448\u043e \u0437\u043d\u0430\u043a\u043e\u043c\u0430\u044f
+        \u043a\u043e\u043c\u043d\u0430\u0442\u0430. \u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435
+        \u043d\u0430 \u0441\u0442\u0430\u0440\u0443\u044e \u0414\u0436\u0438\u043e\u043d\u0435\u0442\u0442\u0443,
+        \u0437\u0430\u0441\u0443\u0435\u0442\u0438\u0432\u0448\u0443\u044e\u0441\u044f,
+        \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u044f\u044f \u0443\u0436\u0438\u043d,
+        \u0438 \u043f\u043e\u0441\u043b\u0443\u0448\u0430\u0439\u0442\u0435 \u041f\u0438\u0437\u0430\u043d\u0438,
+        \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u0440\u043e\u0431\u0443\u0436\u0434\u0430\u0435\u0442
+        \u0437\u0430\u0441\u043d\u0443\u0432\u0448\u0443\u044e \u0441\u043a\u0440\u0438\u043f\u043a\u0443,
+        \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u0432\u0435\u0434\u0430\u0442\u044c
+        \u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043c \u0441\u043e\u0431\u044b\u0442\u0438\u0438
+        \u0441\u0432\u043e\u0435\u043c\u0443 \u043d\u0435\u0440\u0430\u0437\u043b\u0443\u0447\u043d\u043e\u043c\u0443
+        \u0434\u0440\u0443\u0433\u0443. \u041f\u043e\u0441\u043b\u0443\u0448\u0430\u0439\u0442\u0435
+        \u044d\u0442\u043e\u0442 \u0441\u043c\u0435\u0445 \u043c\u0430\u0442\u0435\u0440\u0438,
+        \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0445 \u0441\u043c\u0435\u0445,
+        \u043f\u043e\u043b\u043d\u044b\u0439 \u0432\u0435\u0441\u0435\u043b\u043e\u0441\u0442\u0438.\n\u041a\u0430\u043a\u043e\u0435
+        \u0441\u0447\u0430\u0441\u0442\u043b\u0438\u0432\u043e\u0435 \u0441\u043e\u0431\u0440\u0430\u043d\u0438\u0435
+        \u0432\u043e\u043a\u0440\u0443\u0433\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Zanoni-sbornik-Part-4114-12-20","url":"https:\/\/telegra.ph\/Zanoni-sbornik-Part-4114-12-20","title":"\u0417\u0430\u043d\u043e\u043d\u0438
+        (\u0441\u0431\u043e\u0440\u043d\u0438\u043a) (Part 4\/114)","description":"\u0418
+        \u0431\u044b\u0441\u0442\u0440\u043e \u043f\u043e\u043a\u0430\u0442\u0438\u043b\u0430\u0441\u044c
+        \u0437\u043e\u043b\u043e\u0447\u0435\u043d\u0430\u044f \u043a\u0430\u0440\u0435\u0442\u0430,
+        \u0438 \u043a\u0443\u0447\u0435\u0440 \u0432\u0430\u0436\u043d\u043e \u0441\u0438\u0434\u0435\u043b
+        \u043d\u0430 \u043a\u043e\u0437\u043b\u0430\u0445, \u0438 \u0432\u0430\u0436\u043d\u043e
+        \u0433\u0430\u0440\u0446\u0435\u0432\u0430\u043b\u0438 \u043b\u043e\u0448\u0430\u0434\u0438.\n\u0411\u0435\u0434\u043d\u044b\u0439
+        \u041f\u0438\u0437\u0430\u043d\u0438 \u0442\u0435\u0440\u044f\u043b\u0441\u044f
+        \u043e\u0442 \u0443\u0434\u0438\u0432\u043b\u0435\u043d\u0438\u044f. \u041e\u043d
+        \u043f\u0440\u0438\u0435\u0445\u0430\u043b \u0432 \u0442\u0435\u0430\u0442\u0440,
+        \u0432\u044b\u0448\u0435\u043b \u0443 \u0431\u043e\u043b\u044c\u0448\u043e\u0433\u043e
+        \u043f\u043e\u0434\u044a\u0435\u0437\u0434\u0430 \u0438 \u043d\u0430\u0447\u0430\u043b
+        \u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c\u0441\u044f.\n\u0415\u043c\u0443
+        \u0447\u0435\u0433\u043e-\u0442\u043e \u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u0430\u043b\u043e.
+        \u0421\u043a\u0440\u0438\u043f\u043a\u0430! \u0413\u0434\u0435 \u043e\u043d\u0430?
+        \u0423\u0432\u044b! \u0415\u0433\u043e \u0434\u0443\u0448\u0430, \u0435\u0433\u043e
+        \u0433\u043e\u043b\u043e\u0441, \u0441\u0430\u043c\u043e \u0435\u0433\u043e
+        \u00ab\u044f\u00bb \u043e\u0441\u0442\u0430\u043b\u0438\u0441\u044c \u0434\u043e\u043c\u0430.
+        \u0422\u0435\u043f\u0435\u0440\u044c \u043b\u0430\u043a\u0435\u0438 \u0432\u0435\u0434\u0443\u0442
+        \u0442\u043e\u043b\u044c\u043a\u043e \u0431\u0435\u0437\u0434\u0443\u0448\u043d\u044b\u0439
+        \u0430\u0432\u0442\u043e\u043c\u0430\u0442 \u0438 \u043f\u0440\u043e\u0432\u043e\u0434\u044f\u0442
+        \u0432 \u043b\u043e\u0436\u0443 \u043a\u0430\u0440\u0434\u0438\u043d\u0430\u043b\u0430.
+        \u041d\u043e \u0447\u0442\u043e \u044d\u0442\u043e \u0437\u0430 \u0437\u0432\u0443\u043a\u0438
+        \u043f\u043e\u0440\u0430\u0437\u0438\u043b\u0438 \u0435\u0433\u043e \u0441\u043b\u0443\u0445?
+        \u041d\u0435 \u0441\u043e\u043d \u043b\u0438 \u044d\u0442\u043e?\n\u041f\u0435\u0440\u0432\u044b\u0439
+        \u0430\u043a\u0442 \u043a\u043e\u043d\u0447\u0438\u043b\u0441\u044f (\u0437\u0430
+        \u043d\u0438\u043c \u043f\u043e\u0441\u043b\u0430\u043b\u0438, \u0442\u043e\u043b\u044c\u043a\u043e
+        \u043a\u043e\u0433\u0434\u0430 \u0443\u0441\u043f\u0435\u0445 \u043d\u0435
+        \u043a\u0430\u0437\u0430\u043b\u0441\u044f \u0443\u0436\u0435 \u0441\u043e\u043c\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c);
+        \u043f\u0435\u0440\u0432\u043e\u0435\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Zanoni-sbornik-Part-3114-12-20","url":"https:\/\/telegra.ph\/Zanoni-sbornik-Part-3114-12-20","title":"\u0417\u0430\u043d\u043e\u043d\u0438
+        (\u0441\u0431\u043e\u0440\u043d\u0438\u043a) (Part 3\/114)","description":"\u0422\u0430\u043a
+        \u0431\u044b\u043b\u043e \u0438 \u0441 \u0412\u0438\u043e\u043b\u043e\u0439.
+        \u0418\u043d\u043e\u0433\u0434\u0430 \u0435\u0435 \u0444\u0430\u043d\u0442\u0430\u0437\u0438\u044f
+        \u0432\u044b\u0437\u044b\u0432\u0430\u043b\u0430 \u043f\u0440\u043e\u0442\u0438\u0432
+        \u0435\u0435 \u0436\u0435\u043b\u0430\u043d\u0438\u044f \u044d\u0442\u0438
+        \u0437\u0432\u0443\u043a\u0438; \u043e\u043d\u0438 \u044f\u0432\u043b\u044f\u043b\u0438\u0441\u044c
+        \u0435\u0439 \u0442\u043e \u0432\u0435\u0441\u0435\u043b\u044b\u043c\u0438,
+        \u0438 \u0442\u043e\u0433\u0434\u0430 \u0432\u044b\u0437\u044b\u0432\u0430\u043b\u0438
+        \u0441\u0438\u044f\u044e\u0449\u0443\u044e \u0443\u043b\u044b\u0431\u043a\u0443
+        \u043d\u0430 \u0435\u0435 \u043b\u0438\u0446\u0435, \u0442\u043e \u0433\u0440\u0443\u0441\u0442\u043d\u044b\u043c\u0438,
+        \u0438 \u0442\u043e\u0433\u0434\u0430 \u043b\u043e\u0431 \u0435\u0435 \u0445\u043c\u0443\u0440\u0438\u043b\u0441\u044f,
+        \u043e\u043d\u0438 \u043f\u0440\u043e\u0433\u043e\u043d\u044f\u043b\u0438
+        \u0435\u0435 \u0434\u0435\u0442\u0441\u043a\u0443\u044e \u0440\u0430\u0434\u043e\u0441\u0442\u044c
+        \u0438 \u0437\u0430\u0441\u0442\u0430\u0432\u043b\u044f\u043b\u0438 \u0437\u0430\u0434\u0443\u043c\u044b\u0432\u0430\u0442\u044c\u0441\u044f
+        \u0438 \u0443\u0435\u0434\u0438\u043d\u044f\u0442\u044c\u0441\u044f. \u041c\u044b
+        \u043c\u043e\u0436\u0435\u043c \u0441\u043f\u0440\u0430\u0432\u0435\u0434\u043b\u0438\u0432\u043e
+        \u0441\u043a\u0430\u0437\u0430\u0442\u044c, \u0447\u0442\u043e \u044d\u0442\u043e
+        \u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u043e\u0435 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435,
+        \u0441\u0442\u043e\u043b\u044c \u0432\u043e\u0437\u0434\u0443\u0448\u043d\u043e\u0435,
+        \u0441\u0442\u043e\u043b\u044c \u0433\u0430\u0440\u043c\u043e\u043d\u0438\u0447\u043d\u043e\u0435
+        \u0432 \u0441\u0432\u043e\u0435\u0439 \u043a\u0440\u0430\u0441\u043e\u0442\u0435,
+        \u0432 \u0441\u0432\u043e\u0438\u0445 \u043f\u043e\u0441\u0442\u0443\u043f\u043a\u0430\u0445
+        \u0438 \u043c\u044b\u0441\u043b\u044f\u0445, \u043c\u043e\u0433\u043b\u043e
+        \u043d\u0430\u0437\u0432\u0430\u0442\u044c\u0441\u044f \u0434\u043e\u0447\u0435\u0440\u044c\u044e
+        \u043d\u0435 \u043c\u0443\u0437\u044b\u043a\u0430\u043d\u0442\u0430, \u0430
+        \u043c\u0443\u0437\u044b\u043a\u0438. \u041f\u043e\u0442\u043e\u043c\u0443
+        \u043d\u0435 \u0431\u044b\u043b\u043e \u043d\u0438\u0447\u0435\u0433\u043e
+        \u0441\u0442\u0440\u0430\u043d\u043d\u043e\u0433\u043e \u0432 \u0442\u043e\u043c,
+        \u0447\u0442\u043e \u0412\u0438\u043e\u043b\u0430 \u0441 \u0441\u0430\u043c\u043e\u0433\u043e
+        \u0434\u0435\u0442\u0441\u0442\u0432\u0430\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Zanoni-sbornik-Part-2114-12-20","url":"https:\/\/telegra.ph\/Zanoni-sbornik-Part-2114-12-20","title":"\u0417\u0430\u043d\u043e\u043d\u0438
+        (\u0441\u0431\u043e\u0440\u043d\u0438\u043a) (Part 2\/114)","description":"\u0415\u0435
+        \u043b\u0435\u0442\u0430 \u0434\u0435\u043b\u0430\u043b\u0438 \u0435\u0435
+        \u0441\u043e\u043a\u0440\u043e\u0432\u0438\u0449\u0435\u043c. \u0421\u043a\u043e\u043b\u044c\u043a\u043e
+        \u0440\u0443\u043a, \u0442\u0435\u043f\u0435\u0440\u044c \u043f\u0440\u0435\u0432\u0440\u0430\u0442\u0438\u0432\u0448\u0438\u0445\u0441\u044f
+        \u0432 \u043f\u0440\u0430\u0445, \u0437\u0430\u0441\u0442\u0430\u0432\u043b\u044f\u043b\u0438
+        \u0434\u0440\u043e\u0436\u0430\u0442\u044c \u0435\u0435 \u0441\u0442\u0440\u0443\u043d\u044b,
+        \u0440\u0430\u043d\u044c\u0448\u0435, \u0447\u0435\u043c \u043e\u043d\u0430
+        \u0441\u0434\u0435\u043b\u0430\u043b\u0430\u0441\u044c \u043d\u0435\u0440\u0430\u0437\u043b\u0443\u0447\u043d\u043e\u0439
+        \u043f\u043e\u0434\u0440\u0443\u0433\u043e\u0439 \u0413\u0430\u044d\u0442\u0430\u043d\u043e
+        \u041f\u0438\u0437\u0430\u043d\u0438! \u0415\u0435 \u0444\u0443\u0442\u043b\u044f\u0440
+        \u0442\u0430\u043a\u0436\u0435 \u0431\u044b\u043b \u043f\u043e\u0447\u0442\u0435\u043d\u043d\u044b\u043c;
+        \u043e\u043d \u0431\u044b\u043b \u043f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u043d\u043e
+        \u0440\u0430\u0437\u0440\u0438\u0441\u043e\u0432\u0430\u043d, \u043a\u0430\u043a
+        \u0433\u043e\u0432\u043e\u0440\u044f\u0442, \u0437\u043d\u0430\u043c\u0435\u043d\u0438\u0442\u044b\u043c
+        \u0413\u0430\u0440\u0430\u0445\u043e\u043c. \u0417\u0430 \u044d\u0442\u043e\u0442
+        \u0444\u0443\u0442\u043b\u044f\u0440 \u043e\u0434\u0438\u043d \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439
+        \u043a\u043e\u043b\u043b\u0435\u043a\u0446\u0438\u043e\u043d\u0435\u0440 \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u043b
+        \u0435\u043c\u0443 \u0431\u043e\u043b\u044c\u0448\u0435, \u0447\u0435\u043c
+        \u041f\u0438\u0437\u0430\u043d\u0438 \u043a\u043e\u0433\u0434\u0430-\u043b\u0438\u0431\u043e
+        \u043c\u043e\u0433 \u043f\u0440\u0438\u043e\u0431\u0440\u0435\u0441\u0442\u0438
+        \u0441\u0432\u043e\u0435\u0439 \u0441\u043a\u0440\u0438\u043f\u043a\u043e\u0439.\n\u041d\u043e
+        \u041f\u0438\u0437\u0430\u043d\u0438, \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u043e
+        \u0434\u043e\u0432\u043e\u043b\u044c\u043d\u044b\u0439 \u0445\u0438\u0436\u0438\u043d\u043e\u0439
+        \u0434\u043b\u044f \u0441\u0430\u043c\u043e\u0433\u043e \u0441\u0435\u0431\u044f,
+        \u0433\u043e\u0440\u0434\u0438\u043b\u0441\u044f \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c\u044e
+        \u0434\u0430\u0442\u044c \u0434\u0432\u043e\u0440\u0435\u0446 \u0441\u0432\u043e\u0435\u043c\u0443
+        \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0443. \u0415\u0433\u043e
+        \u0441\u043a\u0440\u0438\u043f\u043a\u0430 \u0431\u044b\u043b\u0430 \u0441\u0442\u0430\u0440\u0448\u0430\u044f\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Zanoni-sbornik-Part-1-12-18","url":"https:\/\/telegra.ph\/Zanoni-sbornik-Part-1-12-18","title":"\u0417\u0430\u043d\u043e\u043d\u0438
+        (\u0441\u0431\u043e\u0440\u043d\u0438\u043a) (Part 1)","description":"\u0422\u043e\u043c
+        I\n\u041a\u043d\u0438\u0433\u0430 \u043f\u0435\u0440\u0432\u0430\u044f\n\u041a\u043e\u043c\u043f\u043e\u0437\u0438\u0442\u043e\u0440\n\u0412\u043e
+        \u0432\u0442\u043e\u0440\u043e\u0439 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0435
+        \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0433\u043e \u0441\u0442\u043e\u043b\u0435\u0442\u0438\u044f
+        \u0436\u0438\u043b \u0432 \u041d\u0435\u0430\u043f\u043e\u043b\u0435 \u043e\u0434\u0438\u043d
+        \u0430\u0440\u0442\u0438\u0441\u0442 \u043f\u043e \u0438\u043c\u0435\u043d\u0438
+        \u0413\u0430\u044d\u0442\u0430\u043d\u043e \u041f\u0438\u0437\u0430\u043d\u0438.
+        \u042d\u0442\u043e \u0431\u044b\u043b \u0433\u0435\u043d\u0438\u0430\u043b\u044c\u043d\u044b\u0439,
+        \u043d\u043e \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439
+        \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0442\u043e\u0440; \u0432\u043e
+        \u0432\u0441\u0435\u0445 \u0435\u0433\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u044f\u0445
+        \u0431\u044b\u043b\u043e \u0447\u0442\u043e-\u0442\u043e \u043a\u0430\u043f\u0440\u0438\u0437\u043d\u043e\u0435
+        \u0438 \u0444\u0430\u043d\u0442\u0430\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435,
+        \u0447\u0442\u043e \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u043b\u043e\u0441\u044c
+        \u043d\u0435\u0430\u043f\u043e\u043b\u0438\u0442\u0430\u043d\u0441\u043a\u0438\u043c
+        \u0434\u0438\u043b\u0435\u0442\u0430\u043d\u0442\u0430\u043c. \u041e\u043d
+        \u043b\u044e\u0431\u0438\u043b \u0441\u0442\u0440\u0430\u043d\u043d\u044b\u0435
+        \u0441\u044e\u0436\u0435\u0442\u044b; \u0438\u00a0\u0430\u0440\u0438\u0438
+        \u0438 \u0441\u0438\u043c\u0444\u043e\u043d\u0438\u0438, \u0441\u043e\u0447\u0438\u043d\u0435\u043d\u043d\u044b\u0435
+        \u0438\u043c, \u043f\u0440\u043e\u0431\u0443\u0436\u0434\u0430\u043b\u0438
+        \u0432 \u0441\u043b\u0443\u0448\u0430\u0442\u0435\u043b\u044f\u0445 \u0447\u0442\u043e-\u0442\u043e
+        \u0432\u0440\u043e\u0434\u0435 \u0443\u0436\u0430\u0441\u0430. \u0417\u0430\u0433\u043b\u0430\u0432\u0438\u0439
+        \u044d\u0442\u0438\u0445 \u043e\u043f\u0435\u0440 \u0431\u0443\u0434\u0435\u0442,
+        \u043a\u043e\u043d\u0435\u0447\u043d\u043e, \u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e,
+        \u0447\u0442\u043e\u0431\u044b \u0434\u0430\u0442\u044c \u043f\u043e\u043d\u044f\u0442\u0438\u0435
+        \u043e\u0431 \u0438\u0445 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0435.
+        \u042f \u043d\u0430\u0445\u043e\u0436\u0443, \u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440,
+        \u043c\u0435\u0436\u0434\u0443 \u0435\u0433\u043e \u043c\u0430\u043d\u0443\u0441\u043a\u0440\u0438\u043f\u0442\u0430\u043c\u0438:
+        \u00ab\u041f\u0438\u0440\u0448\u0435\u0441\u0442\u0432\u043e\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":4,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-2449-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-2449-12-02","title":"Harry
+        Potter and the Cursed Child (Part 24\/49)","description":"Engorgio.\nHe fires
+        a bolt from his wand across the room. The soap blows up to four times its
+        size. \nSCORPIUS: Nice. Consider me engorgimpressed.\nALBUS: The second task
+        was the lake task. They had to retrieve something which was stolen from them,
+        which turned out to be \u2014\nSCORPIUS: \u2014 people they loved.\nALBUS:
+        Cedric used a Bubble-Head Charm to swim through the lake. All we do is follow
+        him in there and use Engorgement to turn him into something rather larger.
+        We know the Time-Turner doesn\u2019t give us long, so we\u2019re\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":3,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-2349-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-2349-12-02","title":"Harry
+        Potter and the Cursed Child (Part 23\/49)","description":"SCORPIUS: I didn\u2019t
+        much like my life without you in it either.\nALBUS: And I know I\u2019ll always
+        be Harry Potter\u2019s son \u2014 and I will sort that out in my head \u2014
+        and I know compared to you my life is pretty good, really, and that he and
+        I are comparatively lucky and \u2014\nSCORPIUS (interrupting): Albus, as apologies
+        go this is wonderfully fulsome, but you\u2019re starting to talk more about
+        you than me again, so probably better to quit while you\u2019re ahead.\nALBUS
+        smiles and stretches out a hand. \nALBUS: Friends?\nSCORPIUS: Always.\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-2249-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-2249-12-02","title":"Harry
+        Potter and the Cursed Child (Part 22\/49)","description":"LIBRARIAN: Ssshhh!\nALBUS
+        thinks quickly. \nALBUS: Fine, let\u2019s go back \u2014 fix it. Get Cedric
+        and Rose back.\nSCORPIUS: . . . is the wrong answer.\nALBUS: You\u2019ve still
+        got the Time-Turner, right? No one found it?\nSCORPIUS takes it out of his
+        pocket. \nSCORPIUS: Yes, but . . .\nALBUS snatches it from his hand. \nNo.
+        Don\u2019t . . . Albus. Don\u2019t you understand how bad things could get?\nSCORPIUS
+        grabs for the Time-Turner, ALBUS pushes him back, they wrestle inexpertly.
+        \nALBUS: Things need fixing, Scorpius. Cedric still needs\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-2149-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-2149-12-02","title":"Harry
+        Potter and the Cursed Child (Part 21\/49)","description":"SCORPIUS: Oh.\nDELPHI:
+        You\u2019re best friends. Every owl he sends I can feel your absence. He\u2019s
+        destroyed by it.\nSCORPIUS: Sounds like he\u2019s found a shoulder to cry
+        on. How many owls has he sent you now?\nDELPHI smiles softly. \nSorry. That\u2019s
+        \u2014 I didn\u2019t mean \u2014 I just \u2014 don\u2019t understand what\u2019s
+        going on. I\u2019ve tried to see him, talk to him, but every time I do he
+        runs off.\nDELPHI: You know, I didn\u2019t have a best friend when I was your
+        age. I wanted one. Desperately. When I was younger I even invented one but
+        \u2014\nSCORPIUS:\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-2049-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-2049-12-02","title":"Harry
+        Potter and the Cursed Child (Part 20\/49)","description":"ACT TWO, SCENE TWELVE\n\nHOGWARTS,
+        STAIRCASES\nALBUS walks up a staircase. Looking around as he does. \nHe doesn\u2019t
+        see anything. He exits. The staircases move in almost a dance. \nSCORPIUS
+        enters behind him. He thinks he\u2019s seen ALBUS, he realizes he isn\u2019t
+        there. \nHe slumps down to the floor as the staircase sweeps around. \nMADAM
+        HOOCH enters and walks up the staircase. At the top, she gestures for SCORPIUS
+        to move. \nHe does. And slopes off \u2014 his abject loneliness clear. \nALBUS
+        enters and walks up one staircase.\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1949-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1949-12-02","title":"Harry
+        Potter and the Cursed Child (Part 19\/49)","description":"ALBUS: But that
+        doesn\u2019t . . . make sense.\nHARRY: Albus, whatever you\u2019re feigning,
+        it isn\u2019t working. I will not change my mind.\nALBUS: Dad, you have two
+        choices, either you take me to \u2014\nHARRY: No, you\u2019re the one with
+        the choice, Albus. You do this, or you get in deeper, much deeper trouble
+        \u2014 do you understand?\nSCORPIUS: Albus? You\u2019re okay. That\u2019s
+        fantastic.\nHARRY: He\u2019s completely cured. And we\u2019ve got to go.\nALBUS
+        looks up at SCORPIUS and his heart breaks. He walks on. \nSCORPIUS: Are you
+        mad at me? What\u2019s going\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1849-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1849-12-02","title":"Harry
+        Potter and the Cursed Child (Part 18\/49)","description":"The arm, how does
+        it feel?\nALBUS flexes his arm. \nALBUS: It feels great.\nHARRY (soft): Where
+        did you go, Albus? I can\u2019t tell you what it did to us. Your mum was worried
+        sick . . .\nALBUS looks up, he is a great liar. \nALBUS: We decided we didn\u2019t
+        want to come to school. We thought we could start again \u2014 in the Muggle
+        world. We discovered we were wrong. We were coming back to Hogwarts when you
+        found us.\nHARRY: In Durmstrang robes?\nALBUS: The robes were . . . The whole
+        thing \u2014 Scorpius and I \u2014 we didn\u2019t think.\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1749-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1749-12-02","title":"Harry
+        Potter and the Cursed Child (Part 17\/49)","description":"YOUNG HERMIONE:
+        How do you know my name?\nLUDO BAGMAN: And with no time to lose let\u2019s
+        bring out our first champion \u2014 facing a Swedish Short-Snout, I give you
+        \u2014 CEDRIC DIGGORY.\nA dragon roar distracts YOUNG HERMIONE, and ALBUS
+        readies his wand. \nAnd Cedric Diggory has entered the stage. And he seems
+        ready. Scared, but ready. He dodges this way. He dodges that. The girls swoon
+        as he dives for cover. They cry as one: Don\u2019t damage our Diggory, Mr.
+        Dragon!\nSCORPIUS looks concerned. \nSCORPIUS: Albus, something is\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":3,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1649-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1649-12-02","title":"Harry
+        Potter and the Cursed Child (Part 16\/49)","description":"HARRY: My son is
+        missing, Bane. I need help finding him.\nBANE: And he is here? In our forest?\nHARRY:
+        Yes.\nBANE: Then he is as stupid as you are.\nHARRY: Can you help me, Bane?\nThere\u2019s
+        a pause. BANE looks down at HARRY imperiously. \nBANE: I can only tell you
+        what I know . . . But I tell you not for your benefit but for the benefit
+        of my herd. The centaurs do not need another war.\nHARRY: Neither do we! What
+        do you know?\nBANE: I\u2019ve seen your son, Harry Potter. Seen him in the
+        movements of the stars.\nHARRY: You\u2019ve\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1549-12-02","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1549-12-02","title":"Harry
+        Potter and the Cursed Child (Part 15\/49)","description":"ACT TWO, SCENE FOUR\n\nEDGE
+        OF THE FORBIDDEN FOREST\nALBUS and DELPHI face each other, holding wands.
+        \nALBUS: Expelliarmus!\nDELPHI\u2019s wand flies through the air. \nDELPHI:
+        You\u2019re getting it now. You\u2019re good at this.\nShe takes her wand
+        back from him. \n(In a posh voice.) \u201cYou\u2019re a positively disarming
+        young man.\u201d\nALBUS: Expelliarmus!\nHer wand flies back again. \nDELPHI:
+        And we have a winner.\nThe two high-five. \nALBUS: I\u2019ve never been good
+        at spells.\nSCORPIUS appears at the back of the stage. He looks at his friend\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1449-12-01","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1449-12-01","title":"Harry
+        Potter and the Cursed Child (Part 14\/49)","description":"Books try and grab
+        him. \nA constant companion. Sometimes behind. Sometimes in front. Hang on.
+        I\u2019ve missed it. Shadow. You\u2019re a shadow. Shadows and Spirits. It
+        must be . . .\nHe climbs up the bookcase, which is horrifying as it rises
+        up at him. Grabbing at him with his every step. \nHe pulls the book from the
+        shelf. It comes out and the noise and chaos suddenly stop. \nIs that \u2014\nSuddenly
+        there\u2019s a smashing and ALBUS and DELPHI fall out of the shelves and down
+        to the floor. \nWe beat it. We beat the library.\nALBUS:\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1349-12-01","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1349-12-01","title":"Harry
+        Potter and the Cursed Child (Part 13\/49)","description":"DELPHI\/HERMIONE:
+        You were impressive. Good blocking action.\nSCORPIUS\/HARRY: I don\u2019t
+        know whether to high-five you or frown at you for kissing your aunt about
+        five hundred times!\nALBUS\/RON: Ron\u2019s an affectionate guy. I was trying
+        to distract her, Scorpius. I did distract her.\nSCORPIUS\/HARRY: And then
+        there\u2019s what your dad said . . .\nDELPHI\/HERMIONE: Boys . . . She will
+        be back \u2014 we don\u2019t have long.\nALBUS\/RON (to SCORPIUS\/HARRY):
+        You heard that?\nDELPHI\/HERMIONE: Where would Hermione hide a Time-Turner?
+        (She looks\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1249-12-01","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1249-12-01","title":"Harry
+        Potter and the Cursed Child (Part 12\/49)","description":"DRACO: Do you? Know
+        it? What aren\u2019t you telling us?\nThere\u2019s a silence. \nWhatever information
+        you\u2019re concealing, I recommend you share it now.\nHARRY: Albus and I
+        had an argument, the day before last.\nDRACO: And . . .\nHARRY hesitates and
+        then makes brave eye contact with DRACO. \nHARRY: And I told him that there
+        were times when I wished he weren\u2019t my son.\nThere\u2019s another silence.
+        A profoundly powerful one. And then DRACO takes a dangerous step towards HARRY.
+        \nDRACO: If anything happens to Scorpius . . .\nGINNY\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1149-12-01","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1149-12-01","title":"Harry
+        Potter and the Cursed Child (Part 11\/49)","description":"HARRY: Getting old?
+        Thanks, mate.\nRON: Honestly, every time I sit down now I make an \u201cooof\u201d
+        noise. An \u201cooof.\u201d And my feet \u2014 the trouble I\u2019m having
+        with my feet \u2014 I could write songs about the pain my feet give me \u2014
+        maybe your scar is like that.\nGINNY: You talk a lot of rubbish.\nRON: I consider
+        it my speciality. That and my range of Skiving Snackboxes. And my love for
+        all of you. Even Skinny Ginny.\nGINNY: If you don\u2019t behave, Ronald Weasley,
+        I will tell Mum.\nRON: You wouldn\u2019t.\nHERMIONE: If some part of Voldemort\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":3,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1049-12-01","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1049-12-01","title":"Harry
+        Potter and the Cursed Child (Part 10\/49)","description":"HARRY: Draco, no
+        one is saying this has anything to do with Scorpius . . .\nDRACO: Well, I,
+        for one, think this meeting a sham. And I\u2019m leaving.\nHe walks out. Others
+        start to disperse after him. \nHERMIONE: No. That\u2019s not the way . . .
+        Come back. We need a strategy.\nACT ONE, SCENE THIRTEEN\n\nST. OSWALD\u2019S
+        HOME FOR OLD WITCHES AND WIZARDS\nThis is chaos. This is magic. This is St.
+        Oswald\u2019s Home for Old Witches and Wizards and it is as wonderful as you
+        might hope. \nWalker frames are conjured into life, knitting wool\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-949-11-30","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-949-11-30","title":"Harry
+        Potter and the Cursed Child (Part 9\/49)","description":"SCORPIUS: The what?
+        The where? Look, I am as excited as you are to be a rebel for the first time
+        in my life \u2014 yay \u2014 train roof \u2014 fun \u2014 but now \u2014 oh.\nSCORPIUS
+        sees something he doesn\u2019t want to see. \nALBUS: The water will be an
+        extremely useful backup if our Cushioning Charm doesn\u2019t work.\nSCORPIUS:
+        Albus. The Trolley Witch.\nALBUS: You want a snack for the journey?\nSCORPIUS:
+        No. Albus. The Trolley Witch is coming towards us.\nALBUS: No, she can\u2019t
+        be, we\u2019re on top of the train . . .\nSCORPIUS points ALBUS in the\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-849-11-30","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-849-11-30","title":"Harry
+        Potter and the Cursed Child (Part 8\/49)","description":"HARRY gasps again
+        \u2014 and does all he can not to touch his forehead. \nGINNY: Harry. What\u2019s
+        wrong?\nHARRY: Fine. I\u2019m fine. I hear you. I\u2019ll try to be \u2014\nGINNY:
+        Does your scar hurt?\nHARRY: No. No. I\u2019m fine. Now, Nox that and let\u2019s
+        get some sleep.\nGINNY: Harry. How long has it been since your scar hurt?\nHARRY
+        turns to GINNY, his face says it all. \nHARRY: Twenty-two years.\nACT ONE,
+        SCENE TEN\n\nTHE HOGWARTS EXPRESS\nALBUS walks quickly along the train. \nROSE:
+        Albus, I\u2019ve been looking for you . . .\nALBUS: Me? Why?\nROSE\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-749-11-30","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-749-11-30","title":"Harry
+        Potter and the Cursed Child (Part 7\/49)","description":"There\u2019s a horrible
+        pause. \nYou should probably leave me alone now.\nHARRY: Albus, please . .
+        .\nALBUS picks up the blanket and throws it. It collides with RON\u2019s love
+        potion, which spills all over the blanket and the bed, producing a small puff
+        of smoke. \nALBUS: No luck or love for me, then.\nALBUS runs out of the room.
+        HARRY goes after him. \nHARRY: Albus. Albus . . . Please . . .\nACT ONE, SCENE
+        EIGHT\n\nDREAM, HUT-ON-THE-ROCK\nThere\u2019s a LARGE BOOM. Then there\u2019s
+        a LARGE CRASH. DUDLEY DURSLEY, AUNT PETUNIA, and UNCLE\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-649-11-30","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-649-11-30","title":"Harry
+        Potter and the Cursed Child (Part 6\/49)","description":"DELPHI: We don\u2019t
+        choose who we\u2019re related to. Amos . . . isn\u2019t just my patient, he\u2019s
+        my uncle, it\u2019s part of the reason I took the job at Upper Flagley. But
+        that\u2019s made it difficult. It\u2019s tough to live with people stuck in
+        the past, isn\u2019t it?\nAMOS: Delphi!\nALBUS: Upper Flagley?\nDELPHI: St.
+        Oswald\u2019s Home for Old Witches and Wizards. Come see us sometime. If you
+        like.\nAMOS: DELPHI!\nShe smiles and then trips as she travels down the stairs.
+        She enters the room with AMOS and HARRY in it. ALBUS watches her. \nDELPHI:\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-549-11-30","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-549-11-30","title":"Harry
+        Potter and the Cursed Child (Part 5\/49)","description":"HERMIONE looks at
+        HARRY \u2014 this is tricky. \nHERMIONE: Do you fancy a toffee? Don\u2019t
+        tell Ron.\nHARRY: You\u2019re changing the subject.\nHERMIONE: I truly am.
+        Toffee?\nHARRY: Can\u2019t. We\u2019re off sugar at the moment. (Beat.) You
+        know, you can get addicted to that stuff?\nHERMIONE: What can I say? My parents
+        were dentists, I was bound to rebel at some point. Forty is leaving it a little
+        late, but . . . You\u2019ve just done a brilliant thing. You\u2019re certainly
+        not being told off \u2014 I just need you to look at your paperwork every\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-449-11-30","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-449-11-30","title":"Harry
+        Potter and the Cursed Child (Part 4\/49)","description":"ALBUS: Do you think
+        she\u2019d clap for me?\nSCORPIUS: I think she\u2019s brilliant.\nThe students
+        circle ALBUS again as suddenly a Potions class begins. \nPOLLY CHAPMAN: Albus
+        Potter. An irrelevance. Even portraits turn the other way when he comes up
+        the stairs.\nALBUS hunches over a potion. \nALBUS: And now we add \u2014 is
+        it horn of bicorn?\nKARL JENKINS: Leave him and Voldemort\u2019s child to
+        it, I say.\nALBUS: With just a little salamander blood . . .\nThe potion explodes
+        loudly. \nSCORPIUS: Okay. What\u2019s the counter-ingredient?\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":4,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-349-11-30","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-349-11-30","title":"Harry
+        Potter and the Cursed Child (Part 3\/49)","description":"I\u2019ve done the
+        job through thick and thin\nSo put me on and you will know\nWhich House you
+        should be in . . .\nRose Granger-Weasley.\nHe puts his hat on ROSE\u2019s
+        head. \nGRYFFINDOR!\nThere\u2019s cheering from the Gryffindors as ROSE joins
+        them. \nROSE: Thank Dumbledore.\nSCORPIUS runs to take ROSE\u2019s place under
+        the SORTING HAT\u2019s glare. \nSORTING HAT: Scorpius Malfoy.\nHe puts his
+        hat on SCORPIUS\u2019s head. \nSLYTHERIN!\nSCORPIUS was expecting this, he
+        nods and half smiles. There\u2019s cheering from the Slytherins as he joins
+        them. \u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":4,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-249-11-30","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-249-11-30","title":"Harry
+        Potter and the Cursed Child (Part 2\/49)","description":"GINNY: People always
+        look when you three are together. And apart. People always look at you.\nThe
+        four exit. GINNY stops HARRY. \nHarry . . . He\u2019ll be all right, won\u2019t
+        he?\nHARRY: Of course he will.\nACT ONE, SCENE THREE\n\nTHE HOGWARTS EXPRESS\nALBUS
+        and ROSE walk along the carriage of the train. \nThe TROLLEY WITCH approaches,
+        pushing her trolley. \nTROLLEY WITCH: Anything from the trolley, dears? Pumpkin
+        Pasty? Chocolate Frog? Cauldron Cake?\nROSE (spotting ALBUS\u2019s loving
+        look at the Chocolate Frogs): Al. We need\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Harry-Potter-and-the-Cursed-Child-Part-1-11-30","url":"https:\/\/telegra.ph\/Harry-Potter-and-the-Cursed-Child-Part-1-11-30","title":"Harry
+        Potter and the Cursed Child (Part 1)","description":"PART ONE \n\n\n\n\u00a0ACT
+        ONE \n\n\n\nACT ONE, SCENE ONE\n\nKING\u2019S CROSS\nA busy and crowded station.
+        Full of people trying to go somewhere. Amongst the hustle and bustle, two
+        large cages rattle on top of two laden trolleys. They\u2019re being pushed
+        by two boys, JAMES POTTER and ALBUS POTTER, their mother, GINNY, follows after.
+        A thirty-seven-year-old man, HARRY, has his daughter, LILY, on his shoulders.
+        \nALBUS: Dad. He keeps saying it.\nHARRY: James, give it a rest.\nJAMES: I
+        only said he might be in Slytherin. And he might so\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Ishtar-Voshodyashchaya-Part-344-11-27","url":"https:\/\/telegra.ph\/Ishtar-Voshodyashchaya-Part-344-11-27","title":"\u0418\u0448\u0442\u0430\u0440
+        \u0412\u043e\u0441\u0445\u043e\u0434\u044f\u0449\u0430\u044f (Part 3\/44)","description":"\u041d\u0443,
+        \u0430 \u043c\u043e\u0436\u043d\u043e \u0438\u0445 \u0441\u0447\u0438\u0442\u0430\u0442\u044c,
+        \u043a\u0430\u043a \u043d\u0430\u0441\u0442\u0430\u0438\u0432\u0430\u0435\u0442
+        \u041c\u043e\u0440\u0440\u0438\u0441, \u0441\u0443\u0440\u0440\u043e\u0433\u0430\u0442\u043e\u043c
+        \u044f\u0433\u043e\u0434\u0438\u0446? \u042d\u0442\u043e \u043a\u0430\u0436\u0435\u0442\u0441\u044f
+        \u043f\u0440\u0430\u0432\u0434\u043e\u043f\u043e\u0434\u043e\u0431\u043d\u044b\u043c,
+        \u0441 \u043d\u0430\u0443\u0447\u043d\u043e\u0439 \u0442\u043e\u0447\u043a\u0438
+        \u0437\u0440\u0435\u043d\u0438\u044f. \u041c\u0443\u0436\u0447\u0438\u043d\u0430,
+        \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u0440\u044f\u043c\u043e
+        \u0441\u0442\u043e\u0438\u0442 (\u0430 \u0441\u043a\u043e\u0440\u0435\u0435
+        \u0432\u0441\u0435\u0433\u043e, \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e
+        \u0441\u0430\u043c \u043c\u0443\u0436\u0447\u0438\u043d\u0430), \u0438 \u0434\u0432\u0438\u0436\u0436\u0435\u0442\u0441\u044f
+        \u043f\u043e \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044e
+        \u043a \u0436\u0435\u043d\u0449\u0438\u043d\u0435, \u043a\u043e\u0442\u043e\u0440\u0430\u044f
+        \u0445\u043e\u0447\u0435\u0442 \u0431\u044b\u0442\u044c \u00ab\u043f\u043e\u043a\u0440\u044b\u0442\u0430\u00bb,
+        \u0441\u0442\u0430\u043b\u043a\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0441
+        \u043e\u043a\u0440\u0443\u0433\u043b\u044b\u043c\u0438 \u043b\u0438\u043d\u0438\u044f\u043c\u0438
+        \u0435\u0451 \u0433\u0440\u0443\u0434\u0435\u0439 \u0442\u043e\u0447\u043d\u043e
+        \u0442\u0430\u043a \u0436\u0435, \u043a\u0430\u043a \u043f\u0440\u043e\u0447\u0438\u0435,
+        \u0447\u0435\u0442\u0432\u0435\u0440\u043e\u043d\u043e\u0433\u0438\u0435,
+        \u043e\u0431\u0435\u0437\u044c\u044f\u043d\u044b, \u043a\u043e\u0432\u044b\u043b\u044f\u044e\u0449\u0438\u0435
+        \u043a \u0441\u0430\u043c\u043a\u0435 \u0441\u0432\u043e\u0435\u0433\u043e
+        \u0432\u0438\u0434\u0430, \u0436\u0435\u043b\u0430\u044e\u0449\u0435\u0439
+        \u0431\u044b\u0442\u044c \u043f\u043e\u043a\u0440\u044b\u0442\u043e\u0439,
+        \u0432\u0438\u0434\u044f\u0442 \u043f\u043e\u0445\u043e\u0436\u0438\u0435
+        \u043e\u043a\u0440\u0443\u0433\u043b\u044b\u0435 \u043b\u0438\u043d\u0438\u0438
+        \u0437\u0430\u0434\u043d\u0438\u0446\u044b. \u0422\u0435\u043c \u043d\u0435
+        \u043c\u0435\u043d\u0435\u0435, \u0434\u0430\u0436\u0435 \u0435\u0441\u043b\u0438
+        \u044d\u0442\u043e \u0438 \u0437\u0432\u0443\u0447\u0438\u0442 \u043a\u0430\u043a
+        \u043f\u0440\u0430\u0432\u0434\u0430, \u044d\u0442\u043e \u0432\u0441\u0451
+        \u043b\u0438\u0448\u044c \u043d\u0430\u0443\u0447\u043d\u0430\u044f\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Ishtar-Voshodyashchaya-Part-244-11-27","url":"https:\/\/telegra.ph\/Ishtar-Voshodyashchaya-Part-244-11-27","title":"\u0418\u0448\u0442\u0430\u0440
+        \u0412\u043e\u0441\u0445\u043e\u0434\u044f\u0449\u0430\u044f (Part 2\/44)","description":"\u0418\u0442\u0430\u043a,
+        \u0435\u0441\u043b\u0438 \u0432\u044b \u0445\u043e\u0442\u0438\u0442\u0435
+        \u043f\u043e\u043d\u044f\u0442\u044c \u043b\u044e\u0434\u0435\u0439, \u043d\u0430\u0447\u043d\u0438\u0442\u0435
+        \u0441 \u0441\u0435\u043c\u0438 \u043c\u0435\u0441\u044f\u0446\u0435\u0432
+        \u0431\u0435\u0441\u043f\u043e\u043c\u043e\u0449\u043d\u043e\u0439 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438,
+        \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u043a\u043e\u0442\u043e\u0440\u044b\u0445
+        \u0432\u0441\u044f \u043f\u0438\u0449\u0430 (\u0438 \u043e\u0433\u0440\u043e\u043c\u043d\u0430\u044f
+        \u0434\u043e\u043b\u044f \u044d\u043c\u043e\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e
+        \u0443\u0434\u043e\u0432\u043e\u043b\u044c\u0441\u0442\u0432\u0438\u044f,
+        \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438,
+        \u043b\u044e\u0431\u0432\u0438 \u0438 \u0442.\u00a0\u0434.) \u043f\u0440\u0438\u0445\u043e\u0434\u044f\u0442
+        \u0442\u043e\u043b\u044c\u043a\u043e \u0447\u0435\u0440\u0435\u0437 \u043f\u0430\u0440\u0443
+        \u0441\u0444\u0435\u0440 \u0441 \u0441\u043e\u0441\u043a\u0430\u043c\u0438,
+        \u043d\u0430\u0437\u044b\u0432\u0430\u0435\u043c\u044b\u0445 \u0433\u0440\u0443\u0434\u044f\u043c\u0438,
+        \u0438\u043b\u0438 \u0438\u0445 \u0431\u043b\u0438\u0437\u043a\u0438\u0439
+        \u0430\u043d\u0430\u043b\u043e\u0433. \u0412\u043e\u043e\u0431\u0440\u0430\u0437\u0438\u0442\u0435
+        \u043a\u043e\u043d\u0434\u0438\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435,
+        \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u043e\u0447\u0435\u0432\u0438\u0434\u043d\u043e
+        \u0432\u043e\u0437\u043d\u0438\u043a\u0430\u0435\u0442 \u043f\u0440\u0438
+        \u044d\u0442\u043e\u043c, \u0438 \u043d\u0435\u043e\u0431\u0440\u0430\u0442\u0438\u043c\u043e\u0435
+        \u0438\u043c\u043f\u0440\u0438\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435,
+        \u043a\u043e\u0442\u043e\u0440\u043e\u0435, \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e,
+        \u0442\u0430\u043a\u0436\u0435 \u043f\u0440\u043e\u0438\u0441\u0445\u043e\u0434\u0438\u0442.
+        \u0422\u0435\u043f\u0435\u0440\u044c \u0432\u044b \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442\u0435,
+        \u043f\u043e\u0447\u0435\u043c\u0443 \u043a\u0443\u043f\u0438\u043b\u0438
+        \u044d\u0442\u0443 \u043a\u043d\u0438\u0433\u0443? \u041f\u043e \u0442\u0435\u043c
+        \u0436\u0435 \u0431\u0438\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u043c
+        \u043f\u0440\u0438\u0447\u0438\u043d\u0430\u043c, \u043f\u043e \u043a\u043e\u0442\u043e\u0440\u044b\u043c
+        \u0440\u0438\u043c\u043b\u044f\u043d\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0430\u043b\u0438\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Ishtar-Voshodyashchaya-Part-1-11-27","url":"https:\/\/telegra.ph\/Ishtar-Voshodyashchaya-Part-1-11-27","title":"\u0418\u0448\u0442\u0430\u0440
+        \u0412\u043e\u0441\u0445\u043e\u0434\u044f\u0449\u0430\u044f (Part 1)","description":"\u0413\u043b\u0430\u0432\u0430
+        1. \u0412\u0441\u0451 \u043d\u0430\u0447\u0430\u043b\u043e\u0441\u044c \u0441
+        \u0440\u0430\u0441\u043f\u0440\u044f\u043c\u043b\u0435\u043d\u0438\u044f\n\u0412
+        \u044d\u0442\u043e\u043c \u043f\u0443\u043d\u043a\u0442\u0438\u043a\u0435,
+        \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0435\u0441\u0442\u044c \u0443
+        \u043d\u0430\u0441 \u0432\u0441\u0435\u0445, \u0432 \u043e\u0434\u0435\u0440\u0436\u0438\u043c\u043e\u0441\u0442\u0438
+        \u0444\u043e\u0440\u043c\u043e\u0439 \u0433\u0440\u0443\u0434\u0438, \u0432
+        \u044d\u0442\u043e\u043c \u0444\u0435\u0442\u0438\u0448\u0435, \u0444\u0430\u043d\u0430\u0442\u0438\u0437\u043c\u0435,
+        \u0441\u0442\u0440\u0430\u043d\u043d\u043e\u0439 \u043d\u0430\u0432\u044f\u0437\u0447\u0438\u0432\u043e\u0441\u0442\u0438,
+        \u0432\u043e\u0441\u0445\u0438\u0449\u0435\u043d\u0438\u0438 \u0438 \u043f\u043e\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0438
+        \u2014 \u043f\u043e\u043c\u0438\u043c\u043e \u0432\u0441\u0435\u0433\u043e
+        \u043f\u0440\u043e\u0447\u0435\u0433\u043e (\u0411\u043e\u0433\u0430 \u0440\u0430\u0434\u0438,
+        \u0431\u0443\u0434\u0435\u043c \u043e\u0442\u043a\u0440\u043e\u0432\u0435\u043d\u043d\u044b\u043c\u0438
+        \u2014 \u0432\u0440\u0435\u043c\u044f \u0443\u0436\u0435 \u043f\u043e\u0437\u0434\u043d\u0435\u0435,
+        \u0438 \u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u0430\u043f\u043e\u043a\u0430\u043b\u0438\u043f\u0441\u0438\u0441
+        \u0441\u0442\u0443\u0447\u0438\u0442\u0441\u044f \u0432 \u0434\u0432\u0435\u0440\u044c
+        \u2014 \u0442\u0430\u043a \u0437\u0430\u0447\u0435\u043c \u0436\u0435 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u0442\u044c
+        \u043f\u0440\u044f\u0442\u0430\u0442\u044c\u0441\u044f?) \u0435\u0441\u0442\u044c
+        \u0438 \u044d\u0432\u043e\u043b\u044e\u0446\u0438\u043e\u043d\u043d\u044b\u0435
+        \u043a\u043e\u0440\u043d\u0438, \u0422\u0438-\u0413\u0440\u044d\u0439\u0441,
+        \u0441\u0438\u043b\u0430 \u0441\u0430\u043c\u043e\u0439 \u043f\u0440\u0438\u0440\u043e\u0434\u044b,
+        \u0421\u0442\u044d\u0439\u043d\u0435\u043c, \u0447\u0438\u0441\u0442\u0430\u044f
+        \u0431\u0438\u043e\u043b\u043e\u0433\u0438\u044f, \u0420\u043e\u0431\u0438\u043d.
+        \u0420\u0430\u0434\u0438 \u0432\u0441\u0435\u0433\u043e \u0441\u0432\u044f\u0442\u043e\u0433\u043e,
+        \u043c\u043b\u0435\u043a\u043e\u043f\u0438\u0442\u0430\u044e\u0449\u0438\u0435
+        \u2014 \u044d\u0442\u043e \u0440\u0430\u0437\u043d\u043e\u0432\u0438\u0434\u043d\u043e\u0441\u0442\u044c
+        \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0445, \u0443 \u043a\u043e\u0442\u043e\u0440\u044b\u0445
+        \u0441\u0430\u043c\u043a\u0438 \u0434\u0430\u044e\u0442 \u0436\u0438\u0437\u043d\u044c\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":3,"can_edit":true},{"path":"Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-542-11-24","url":"https:\/\/telegra.ph\/Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-542-11-24","title":"\u041c\u0430\u0433\u0438\u044f
+        \u0443\u0442\u0440\u0430. \u041a\u0430\u043a \u043f\u0435\u0440\u0432\u044b\u0439
+        \u0447\u0430\u0441 \u0434\u043d\u044f \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442
+        \u0432\u0430\u0448 \u0443\u0441\u043f\u0435\u0445 (Part 5\/42)","description":"\u0422\u0440\u0438\u00a0\u0432\u0430\u0436\u043d\u0435\u0439\u0448\u0438\u0445
+        \u0430\u0440\u0433\u0443\u043c\u0435\u043d\u0442\u0430 \u044d\u0442\u043e\u0439
+        \u043a\u043d\u0438\u0433\u0438","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-442-11-24","url":"https:\/\/telegra.ph\/Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-442-11-24","title":"\u041c\u0430\u0433\u0438\u044f
+        \u0443\u0442\u0440\u0430. \u041a\u0430\u043a \u043f\u0435\u0440\u0432\u044b\u0439
+        \u0447\u0430\u0441 \u0434\u043d\u044f \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442
+        \u0432\u0430\u0448 \u0443\u0441\u043f\u0435\u0445 (Part 4\/42)","description":"\u0412\u044b\u00a0\u043f\u0438\u0448\u0435\u0442\u0435
+        \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0441\u0432\u043e\u0435\u0439
+        \u0436\u0438\u0437\u043d\u0438, \u0430, \u043a\u0430\u043a\u00a0\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e,
+        \u043d\u0438\u00a0\u043e\u0434\u043d\u0430 \u0445\u043e\u0440\u043e\u0448\u0430\u044f
+        \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u043d\u0435\u00a0\u043e\u0431\u0445\u043e\u0434\u0438\u0442\u0441\u044f
+        \u0431\u0435\u0437\u00a0\u0433\u0435\u0440\u043e\u044f \u0438\u043b\u0438\u00a0\u0433\u0435\u0440\u043e\u0438\u043d\u0438,
+        \u0441\u0443\u043c\u0435\u0432\u0448\u0438\u0445 \u043f\u0440\u0435\u043e\u0434\u043e\u043b\u0435\u0442\u044c
+        \u043d\u0435\u043c\u0430\u043b\u043e \u0431\u0435\u0434 \u0438\u00a0\u043d\u0435\u0432\u0437\u0433\u043e\u0434,
+        \u0432\u044b\u043f\u0430\u0432\u0448\u0438\u0445 \u043d\u0430\u00a0\u0438\u0445\u00a0\u0434\u043e\u043b\u044e.
+        \u041f\u043e\u00a0\u0441\u0443\u0442\u0438, \u0447\u0435\u043c\u00a0\u0431\u043e\u043b\u044c\u0448\u0435
+        \u0443\u00a0\u043d\u0438\u0445 \u043f\u0440\u043e\u0431\u043b\u0435\u043c,
+        \u0442\u0435\u043c\u00a0\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u0435\u0435
+        \u0438\u0441\u0442\u043e\u0440\u0438\u044f. \u0410\u00a0\u043f\u043e\u0441\u043a\u043e\u043b\u044c\u043a\u0443
+        \u043d\u0435\u00a0\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442
+        \u043d\u0438\u00a0\u043c\u0430\u043b\u0435\u0439\u0448\u0438\u0445 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0438\u0439
+        \u0432\u00a0\u0442\u043e\u043c, \u043a\u0443\u0434\u0430 \u0432\u0430\u0448\u0430
+        \u0438\u0441\u0442\u043e\u0440\u0438\u044f \u0432\u0430\u0441 \u043f\u0440\u0438\u0432\u0435\u0434\u0435\u0442,
+        \u043f\u0440\u044f\u043c\u043e \u0441\u0435\u0439\u0447\u0430\u0441 \u043f\u043e\u0434\u0443\u043c\u0430\u0439\u0442\u0435
+        (\u043d\u0438\u0447\u0435\u043c \u0441\u0435\u0431\u044f \u043d\u0435\u00a0\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0438\u0432\u0430\u044f),
+        \u0447\u0442\u043e\u00a0\u0431\u044b\u00a0\u0432\u044b\u00a0\u0445\u043e\u0442\u0435\u043b\u0438
+        \u043f\u0440\u043e\u0447\u0435\u0441\u0442\u044c \u043d\u0430\u00a0\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0439
+        \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435?\n\u041a\u00a0\u0441\u0447\u0430\u0441\u0442\u044c\u044e,
+        \u0432\u00a0\u043b\u044e\u0431\u043e\u0439 \u043c\u043e\u043c\u0435\u043d\u0442,
+        \u0445\u043e\u0442\u044c \u043d\u0435\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e,
+        \u0432\u044b\u00a0\u043c\u043e\u0436\u0435\u0442\u0435 \u043d\u0430\u0447\u0430\u0442\u044c
+        \u0438\u0437\u043c\u0435\u043d\u044f\u0442\u044c \u043b\u044e\u0431\u0443\u044e
+        \u0441\u0442\u043e\u0440\u043e\u043d\u0443 \u0441\u0432\u043e\u0435\u0439
+        \u0436\u0438\u0437\u043d\u0438\u00a0\u2013\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-342-11-23","url":"https:\/\/telegra.ph\/Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-342-11-23","title":"\u041c\u0430\u0433\u0438\u044f
+        \u0443\u0442\u0440\u0430. \u041a\u0430\u043a \u043f\u0435\u0440\u0432\u044b\u0439
+        \u0447\u0430\u0441 \u0434\u043d\u044f \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442
+        \u0432\u0430\u0448 \u0443\u0441\u043f\u0435\u0445 (Part 3\/42)","description":"2007\u00a0\u0433\u043e\u0434.
+        \u0412\u00a0\u044d\u0442\u043e\u0442 \u0433\u043e\u0434 \u043c\u043e\u044f
+        \u0436\u0438\u0437\u043d\u044c \u043f\u043e\u043b\u0435\u0442\u0435\u043b\u0430
+        \u0432\u00a0\u0442\u0430\u0440\u0442\u0430\u0440\u0430\u0440\u044b. \u041d\u0430\u00a0\u044d\u043a\u043e\u043d\u043e\u043c\u0438\u043a\u0443
+        \u0421\u0428\u0410 \u043e\u0431\u0440\u0443\u0448\u0438\u043b\u0441\u044f
+        \u043a\u0440\u0438\u0437\u0438\u0441. \u0411\u0443\u043a\u0432\u0430\u043b\u044c\u043d\u043e
+        \u0432\u00a0\u043e\u0434\u043d\u043e\u0447\u0430\u0441\u044c\u0435 \u043c\u043e\u0439
+        \u0434\u043e\u0445\u043e\u0434 \u0441\u043e\u043a\u0440\u0430\u0442\u0438\u043b\u0441\u044f
+        \u0432\u00a0\u0434\u0432\u0430 \u0440\u0430\u0437\u0430. \u041c\u043e\u0438\u00a0\u043a\u043b\u0438\u0435\u043d\u0442\u044b
+        \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435\u00a0\u043c\u043e\u0433\u043b\u0438
+        \u043f\u043e\u0437\u0432\u043e\u043b\u0438\u0442\u044c \u0441\u0435\u0431\u0435
+        \u043a\u043e\u0443\u0447\u0438\u043d\u0433. \u0410\u00a0\u044f\u00a0\u043d\u0435\u00a0\u043c\u043e\u0433
+        \u043e\u043f\u043b\u0430\u0447\u0438\u0432\u0430\u0442\u044c \u0441\u0447\u0435\u0442\u0430,
+        \u0432\u00a0\u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435 \u0437\u0430\u00a0\u0434\u043e\u043c.
+        \u0423\u00a0\u043c\u0435\u043d\u044f \u043d\u0430\u043a\u043e\u043f\u0438\u043b\u043e\u0441\u044c
+        \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u0442\u044b\u0440\u0435\u0445\u0441\u043e\u0442
+        \u0442\u044b\u0441\u044f\u0447 \u0434\u043e\u043b\u043b\u0430\u0440\u043e\u0432
+        \u0434\u043e\u043b\u0433\u0430, \u044f\u00a0\u0431\u044b\u043b \u0440\u0430\u0437\u0434\u0430\u0432\u043b\u0435\u043d
+        \u0438\u00a0\u043e\u043f\u0443\u0441\u0442\u043e\u0448\u0435\u043d. \u0423\u043c\u0441\u0442\u0432\u0435\u043d\u043d\u043e,
+        \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438, \u044d\u043c\u043e\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e
+        \u0438\u00a0\u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u043e. \u0418\u00a0\u043f\u043e\u0433\u0440\u0443\u0437\u0438\u043b\u0441\u044f
+        \u0432\u043e\u00a0\u0442\u044c\u043c\u0443 \u0443\u043d\u044b\u043d\u0438\u044f.
+        \u0415\u0449\u0435\u00a0\u043d\u0438\u043a\u043e\u0433\u0434\u0430 \u0432\u00a0\u0436\u0438\u0437\u043d\u0438
+        \u044f\u00a0\u043d\u0435\u00a0\u0447\u0443\u0432\u0441\u0442\u0432\u043e\u0432\u0430\u043b
+        \u0441\u0435\u0431\u044f \u0442\u0430\u043a \u0431\u0435\u0437\u043d\u0430\u0434\u0435\u0436\u043d\u043e,
+        \u0442\u0430\u043a\u0438\u043c \u0440\u0430\u0437\u0431\u0438\u0442\u044b\u043c,
+        \u0432\u00a0\u0442\u0430\u043a\u043e\u043c \u043e\u0442\u0447\u0430\u044f\u043d\u0438\u0438.
+        \u0412\u00a0\u043f\u043e\u043b\u043d\u043e\u0439 \u0440\u0430\u0441\u0442\u0435\u0440\u044f\u043d\u043d\u043e\u0441\u0442\u0438\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-242-11-23","url":"https:\/\/telegra.ph\/Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-242-11-23","title":"\u041c\u0430\u0433\u0438\u044f
+        \u0443\u0442\u0440\u0430. \u041a\u0430\u043a \u043f\u0435\u0440\u0432\u044b\u0439
+        \u0447\u0430\u0441 \u0434\u043d\u044f \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442
+        \u0432\u0430\u0448 \u0443\u0441\u043f\u0435\u0445 (Part 2\/42)","description":"2000\u00a0\u0433\u043e\u0434.
+        \u0413\u043e\u0434, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043d\u0430\u0447\u0430\u043b\u0441\u044f
+        \u0441\u00a0\u0442\u043e\u0433\u043e, \u0447\u0442\u043e\u00a0\u044f\u00a0\u043e\u0447\u0443\u0442\u0438\u043b\u0441\u044f
+        \u043d\u0430\u00a0\u0431\u043e\u043b\u044c\u043d\u0438\u0447\u043d\u043e\u0439
+        \u043a\u043e\u0439\u043a\u0435 \u0440\u0430\u0437\u0431\u0438\u0442\u044b\u0439,
+        \u043f\u0435\u0440\u0435\u043b\u043e\u043c\u0430\u043d\u043d\u044b\u0439,
+        \u043d\u043e\u00a0\u043d\u0435\u043f\u043e\u0431\u0435\u0436\u0434\u0435\u043d\u043d\u044b\u0439,
+        \u0437\u0430\u043a\u043e\u043d\u0447\u0438\u043b\u0441\u044f \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u043e
+        \u0438\u043d\u0430\u0447\u0435. \u0410\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f
+        \u0443\u00a0\u043c\u0435\u043d\u044f \u0442\u0435\u043f\u0435\u0440\u044c
+        \u043d\u0435\u00a0\u0431\u044b\u043b\u043e, \u043a\u0430\u043a, \u0432\u043f\u0440\u043e\u0447\u0435\u043c,
+        \u0438\u00a0\u043d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u043a\u0440\u0430\u0442\u043a\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439
+        \u043f\u0430\u043c\u044f\u0442\u0438, \u0442\u0430\u043a\u00a0\u0447\u0442\u043e
+        \u0443\u00a0\u043c\u0435\u043d\u044f \u0431\u044b\u043b\u0438 \u0432\u0441\u0435
+        \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u043b\u044f\u00a0\u0442\u043e\u0433\u043e,
+        \u0447\u0442\u043e\u0431\u044b \u0441\u0438\u0434\u0435\u0442\u044c \u0434\u043e\u043c\u0430
+        \u0438\u00a0\u0436\u0430\u043b\u0435\u0442\u044c \u0441\u0435\u0431\u044f.
+        \u0422\u0435\u043c\u00a0\u043d\u0435\u00a0\u043c\u0435\u043d\u0435\u0435 \u044f\u00a0\u0432\u0435\u0440\u043d\u0443\u043b\u0441\u044f
+        \u0432\u00a0Cutco \u043d\u0430\u00a0\u0441\u0432\u043e\u0435 \u043c\u0435\u0441\u0442\u043e
+        \u0442\u043e\u0440\u0433\u043e\u0432\u043e\u0433\u043e \u0430\u0433\u0435\u043d\u0442\u0430.
+        \u0418\u00a0\u044d\u0442\u043e\u0442 \u0433\u043e\u0434 \u0441\u0442\u0430\u043b
+        \u043b\u0443\u0447\u0448\u0438\u043c \u0432\u00a0\u043c\u043e\u0435\u0439
+        \u043a\u0430\u0440\u044c\u0435\u0440\u0435: \u044f\u00a0\u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b
+        \u0435\u0433\u043e \u043f\u043e\u0434\u00a0\u043d\u043e\u043c\u0435\u0440\u043e\u043c
+        \u0448\u0435\u0441\u0442\u044c \u0432\u043e\u00a0\u0432\u0441\u0435\u0439
+        \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 (\u0430\u00a0\u0432\u0435\u0434\u044c
+        \u0432\u00a0\u043d\u0435\u0439 \u0440\u0430\u0431\u043e\u0442\u0430\u043b\u043e
+        \u0431\u043e\u043b\u0435\u0435 \u0448\u0435\u0441\u0442\u0438\u0434\u0435\u0441\u044f\u0442\u0438
+        \u0442\u044b\u0441\u044f\u0447 \u0432\u0435\u0441\u044c\u043c\u0430\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-1-11-23","url":"https:\/\/telegra.ph\/Magiya-utra-Kak-pervyj-chas-dnya-opredelyaet-vash-uspeh-Part-1-11-23","title":"\u041c\u0430\u0433\u0438\u044f
+        \u0443\u0442\u0440\u0430. \u041a\u0430\u043a \u043f\u0435\u0440\u0432\u044b\u0439
+        \u0447\u0430\u0441 \u0434\u043d\u044f \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442
+        \u0432\u0430\u0448 \u0443\u0441\u043f\u0435\u0445 (Part 1)","description":"\u0412\u0432\u0435\u0434\u0435\u043d\u0438\u0435","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"The-Well-Grounded-Rubyist-Second-Edition-Part-710-11-21","url":"https:\/\/telegra.ph\/The-Well-Grounded-Rubyist-Second-Edition-Part-710-11-21","title":"The
+        Well-Grounded Rubyist, Second Edition (Part 7\/10)","description":"Be warned:
+        runnable objects have been at the forefront of difficult and changeable topics
+        in recent versions of Ruby. There\u2019s no getting around the fact that there\u2019s
+        a lot of disagreement about how they should work, and there\u2019s a lot of
+        complexity involved in how they do work. Callable and runnable objects differ
+        from each other, in both syntax and purpose, and grouping them together in
+        one chapter is a bit of an expedient. But it\u2019s also an instructive way
+        to view these objects. \n\nChapter 15. Callbacks, hooks\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Dzhordano-Bruno-i-germeticheskaya-tradiciya-Part-1497-10-16","url":"https:\/\/telegra.ph\/Dzhordano-Bruno-i-germeticheskaya-tradiciya-Part-1497-10-16","title":"\u0414\u0436\u043e\u0440\u0434\u0430\u043d\u043e
+        \u0411\u0440\u0443\u043d\u043e \u0438 \u0433\u0435\u0440\u043c\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f
+        \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u044f (Part 14\/97)","description":"\u041a\u0430\u043a
+        \u0432 \"\u041a\u0430\u0431\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445
+        \u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u044f\u0445\", \u0442\u0430\u043a
+        \u0438 \u0432 \"\u0410\u043f\u043e\u043b\u043e\u0433\u0438\u0438\" \u041f\u0438\u043a\u043e
+        \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442 \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u0435
+        \u043c\u0435\u0436\u0434\u0443 \u0440\u0430\u0437\u043d\u044b\u043c\u0438
+        \u0432\u0438\u0434\u0430\u043c\u0438 \u043a\u0430\u0431\u0430\u043b\u044b.
+        \u0412 \u043f\u0435\u0440\u0432\u043e\u043c \u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0438
+        \u043e\u043d \u0433\u043e\u0432\u043e\u0440\u0438\u0442:\n\nQuidquid dicant
+        caeteri Cabaliste, ego prima diuisione scientiam Cabalae in scientiam Sephirot
+        amp; Semot, tanquam in practicam amp; speculatiuam distinguerem.\n[\u0427\u0442\u043e
+        \u0431\u044b \u043d\u0438 \u0433\u043e\u0432\u043e\u0440\u0438\u043b\u0438
+        \u043f\u0440\u043e\u0447\u0438\u0435 \u043a\u0430\u0431\u0430\u043b\u0438\u0441\u0442\u044b,
+        \u044f \u0434\u0435\u043b\u044e \u043a\u0430\u0431\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e
+        \u043d\u0430\u0443\u043a\u0443 \u043f\u0440\u0435\u0436\u0434\u0435 \u0432\u0441\u0435\u0433\u043e
+        \u043d\u0430 \u043d\u0430\u0443\u043a\u0443 \u0441\u0435\u0444\u0438\u0440\u043e\u0442
+        \u0438 \u0441\u0435\u043c\u043e\u0442 \u2013 \u043a\u0430\u043a \u0431\u044b
+        \u043d\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0443\u044e
+        \u0438 \u0441\u043f\u0435\u043a\u0443\u043b\u044f\u0442\u0438\u0432\u043d\u0443\u044e.][31]\n\n\u0412\u043e
+        \u0432\u0442\u043e\u0440\u043e\u043c \u0437\u0430\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0438
+        \u043e\u043d \u043f\u043e\u0434\u0440\u0430\u0437\u0434\u0435\u043b\u044f\u0435\u0442
+        \"\u0441\u043f\u0435\u043a\u0443\u043b\u044f\u0442\u0438\u0432\u043d\u0443\u044e
+        \u043a\u0430\u0431\u0430\u043b\u0443\"\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Dzhordano-Bruno-i-germeticheskaya-tradiciya-Part-1397-10-11","url":"https:\/\/telegra.ph\/Dzhordano-Bruno-i-germeticheskaya-tradiciya-Part-1397-10-11","title":"\u0414\u0436\u043e\u0440\u0434\u0430\u043d\u043e
+        \u0411\u0440\u0443\u043d\u043e \u0438 \u0433\u0435\u0440\u043c\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f
+        \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u044f (Part 13\/97)","description":"\u041f\u0440\u0438\u0432\u0435\u0434\u0435\u043d\u043d\u043e\u0435
+        \u0434\u0432\u0430\u0434\u0446\u0430\u0442\u044c \u0432\u0442\u043e\u0440\u043e\u0435
+        \u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043e \u043c\u0430\u0433\u0438\u0438
+        \u2013 \u0436\u0435\u0441\u0442\u043a\u0438\u0439 \u0432\u044b\u043f\u0430\u0434
+        \u043f\u0440\u043e\u0442\u0438\u0432 \u043d\u0435\u0437\u0430\u0434\u0430\u0447\u043b\u0438\u0432\u043e\u0433\u043e
+        \u043c\u0430\u0433\u0430, \u0447\u044c\u0438 \u043f\u043e\u0437\u043d\u0430\u043d\u0438\u044f
+        \u0432 \u0435\u0432\u0440\u0435\u0439\u0441\u043a\u043e\u043c \u044f\u0437\u044b\u043a\u0435
+        \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0438\u0432\u0430\u043b\u0438\u0441\u044c,
+        \u043a\u0430\u043a \u0443 \u0424\u0438\u0447\u0438\u043d\u043e, \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u043c\u0438
+        \u0441\u043b\u043e\u0432\u0430\u043c\u0438.\n\nOpus praecedentium hymnorum
+        (\u0442.\u0435. \u043e\u0440\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0445)
+        nullum est sine opere Cabalae, cuius est proprium practicare omnem quantitatem
+        formalem, continuam amp; discretam.\n[\u041e\u043f\u0435\u0440\u0430\u0446\u0438\u0438
+        \u043f\u0440\u0435\u0434\u0448\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445
+        \u0433\u0438\u043c\u043d\u043e\u0432 (\u0442.\u0435. \u043e\u0440\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0445)
+        \u2013 \u043d\u0438\u0447\u0442\u043e \u0431\u0435\u0437 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0439
+        \u043a\u0430\u0431\u0430\u043b\u044b, \u0432 \u0432\u0435\u0434\u0435\u043d\u0438\u0435
+        \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0432\u0445\u043e\u0434\u0438\u0442
+        \u0432\u0441\u044f\u043a\u043e\u0435 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e
+        \u2013 \u0444\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u043e\u0435, \u043d\u0435\u043f\u0440\u0435\u0440\u044b\u0432\u043d\u043e\u0435
+        \u0438 \u0434\u0438\u0441\u043a\u0440\u0435\u0442\u043d\u043e\u0435.][17]\n\n\u0421\u043e\u0433\u043b\u0430\u0441\u043d\u043e
+        \u044d\u0442\u043e\u043c\u0443\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true},{"path":"Dzhordano-Bruno-i-germeticheskaya-tradiciya-Part-1297-10-06","url":"https:\/\/telegra.ph\/Dzhordano-Bruno-i-germeticheskaya-tradiciya-Part-1297-10-06","title":"\u0414\u0436\u043e\u0440\u0434\u0430\u043d\u043e
+        \u0411\u0440\u0443\u043d\u043e \u0438 \u0433\u0435\u0440\u043c\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f
+        \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u044f (Part 12\/97)","description":"\u0432
+        \u043f\u044f\u0442\u043e\u043c:\n\nNulla est uirtus in coelo aut in terra
+        seminaliter amp; separata quam amp; actuare amp; unire magus non possit;\n[\u041d\u0438
+        \u043d\u0430 \u043d\u0435\u0431\u0435, \u043d\u0438 \u043d\u0430 \u0437\u0435\u043c\u043b\u0435
+        \u043d\u0435\u0442 \u0441\u0442\u043e\u043b\u044c \u0440\u0430\u0441\u0441\u0435\u044f\u043d\u043d\u044b\u0445
+        \u0438 \u0440\u0430\u0437\u0440\u043e\u0437\u043d\u0435\u043d\u043d\u044b\u0445
+        \u043d\u0430\u0447\u0430\u043b, \u0447\u0442\u043e\u0431\u044b \u043c\u0430\u0433
+        \u043d\u0435 \u0441\u043c\u043e\u0433 \u043f\u0440\u0438\u0432\u0435\u0441\u0442\u0438
+        \u0438\u0445 \u0432 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0438
+        \u0441\u0432\u0435\u0441\u0442\u0438 \u0432\u043e\u0435\u0434\u0438\u043d\u043e;]\n\n\u0438
+        \u0432 \u0442\u0440\u0438\u043d\u0430\u0434\u0446\u0430\u0442\u043e\u043c:\n\nMagicam
+        operari non est aliud quam maritare mundum.\n[\u0417\u0430\u043d\u0438\u043c\u0430\u0442\u044c\u0441\u044f
+        \u043c\u0430\u0433\u0438\u0435\u0439 \u0435\u0441\u0442\u044c \u043d\u0435
+        \u0447\u0442\u043e \u0438\u043d\u043e\u0435, \u043a\u0430\u043a \u0441\u043e\u0447\u0435\u0442\u0430\u0442\u044c
+        \u0431\u0440\u0430\u043a\u043e\u043c \u043c\u0438\u0440.][6]\n\n\u041f\u043e\u043b\u0430\u0433\u0430\u044e,
+        \u0438\u0437 \u044d\u0442\u0438\u0445 \u0442\u0440\u0435\u0445 \u043f\u043e\u043b\u043e\u0436\u0435\u043d\u0438\u0439
+        \u044f\u0441\u043d\u043e \u0441\u043b\u0435\u0434\u0443\u0435\u0442, \u0447\u0442\u043e
+        \u043f\u043e\u0434 \u0434\u043e\u0437\u0432\u043e\u043b\u0435\u043d\u043d\u043e\u0439,
+        \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u043c\u0430\u0433\u0438\u0435\u0439
+        \u041f\u0438\u043a\u043e \u043f\u043e\u043d\u0438\u043c\u0430\u0435\u0442
+        \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \"\u0441\u0432\u044f\u0437\u0443\u044e\u0449\u0438\u0445\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":7,"can_edit":true},{"path":"Novaya-Atlantida-Part-1010-10-04","url":"https:\/\/telegra.ph\/Novaya-Atlantida-Part-1010-10-04","title":"\u041d\u043e\u0432\u0430\u044f
+        \u0410\u0442\u043b\u0430\u043d\u0442\u0438\u0434\u0430 (Part 10\/10)","description":"\u0422\u0440\u043e\u0435
+        \u0438\u0437 \u043d\u0430\u0441 \u0438\u0437\u0432\u043b\u0435\u043a\u0430\u044e\u0442
+        \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b \u0434\u043b\u044f \u043e\u043f\u044b\u0442\u043e\u0432,
+        \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u0439\u0441\u044f \u0432
+        \u043a\u043d\u0438\u0433\u0430\u0445. \u0418\u0445 \u043d\u0430\u0437\u044b\u0432\u0430\u0435\u043c
+        \u043c\u044b \u043f\u043e\u0445\u0438\u0442\u0438\u0442\u0435\u043b\u044f\u043c\u0438.
+        \n\u0422\u0440\u043e\u0435 \u0434\u0440\u0443\u0433\u0438\u0445 \u0441\u043e\u0431\u0438\u0440\u0430\u044e\u0442
+        \u043e\u043f\u044b\u0442 \u0432\u0441\u0435\u0445 \u043c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0445
+        \u043d\u0430\u0443\u043a, \u0440\u0430\u0432\u043d\u043e \u043a\u0430\u043a
+        \u0438 \u0432\u0441\u0435\u0445 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0445
+        \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432 \u0438 \u0442\u0435\u0445
+        \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0437\u043d\u0430\u043d\u0438\u0439,
+        \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0435 \u0432\u043e\u0448\u043b\u0438
+        \u0432 \u043d\u0430\u0443\u043a\u0443. \u0418\u0445 \u043c\u044b \u043d\u0430\u0437\u044b\u0432\u0430\u0435\u043c
+        \u043e\u0445\u043e\u0442\u043d\u0438\u043a\u0430\u043c\u0438 \u0437\u0430
+        \u0441\u0435\u043a\u0440\u0435\u0442\u0430\u043c\u0438. \n\u0415\u0449\u0435
+        \u0442\u0440\u043e\u0435 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u044f\u0442
+        \u043d\u043e\u0432\u044b\u0435 \u043e\u043f\u044b\u0442\u044b, \u043f\u043e
+        \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u043c\u0443 \u0443\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u0438\u044e.
+        \u0418\u0445 \u043d\u0430\u0437\u044b\u0432\u0430\u0435\u043c \u043c\u044b
+        \u043f\u0438\u043e\u043d\u0435\u0440\u0430\u043c\u0438, \u0438\u043b\u0438
+        \u0438\u0437\u044b\u0441\u043a\u0430\u0442\u0435\u043b\u044f\u043c\u0438.
+        \n\u0415\u0449\u0435 \u0442\u0440\u043e\u0435 \u0437\u0430\u043d\u043e\u0441\u044f\u0442
+        \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043e\u043f\u044b\u0442\u043e\u0432
+        \u0432\u0441\u0435\u0445 \u043d\u0430\u0437\u0432\u0430\u043d\u043d\u044b\u0445
+        \u0447\u0435\u0442\u044b\u0440\u0435\u0445 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0439
+        \u0432 \u0442\u0430\u0431\u043b\u0438\u0446\u044b \u0438 \u0441\u0432\u043e\u0434\u043a\u0438
+        \u0434\u043b\u044f \u0431\u043e\u043b\u0435\u0435 \u0443\u0434\u043e\u0431\u043d\u043e\u0433\u043e
+        \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u044f \u0438\u0437
+        \u043d\u0438\u0445 \u043e\u0431\u0449\u0438\u0445\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":1,"can_edit":true},{"path":"Novaya-Atlantida-Part-910-10-03","url":"https:\/\/telegra.ph\/Novaya-Atlantida-Part-910-10-03","title":"\u041d\u043e\u0432\u0430\u044f
+        \u0410\u0442\u043b\u0430\u043d\u0442\u0438\u0434\u0430 (Part 9\/10)","description":"\u0418
+        \u0435\u0441\u0442\u044c \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u043a\u0438\u0435
+        \u043a\u0430\u043a \u0434\u043b\u044f \u0438\u0437\u0434\u0435\u043b\u0438\u0439,
+        \u0432\u043e\u0448\u0435\u0434\u0448\u0438\u0445 \u0432 \u043e\u0431\u0449\u0435\u0435
+        \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435,
+        \u0442\u0430\u043a \u0438 \u0434\u043b\u044f \u0440\u0435\u0434\u043a\u043e\u0441\u0442\u043d\u044b\u0445.
+        \u0418\u0431\u043e \u0438\u0437 \u043f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0433\u043e
+        \u043c\u043d\u043e\u044e \u043c\u043d\u043e\u0433\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0438\u043b\u043e\u0441\u044c
+        \u0443\u0436\u0435 \u043f\u043e \u0432\u0441\u0435\u0439 \u0441\u0442\u0440\u0430\u043d\u0435,
+        \u043d\u043e \u0435\u0441\u043b\u0438 \u0447\u0442\u043e \u0431\u044b\u043b\u043e
+        \u0438\u0437\u043e\u0431\u0440\u0435\u0442\u0435\u043d\u043e \u043d\u0430\u043c\u0438,
+        \u0442\u043e \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u0443 \u043d\u0430\u0441
+        \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043e\u0431\u0440\u0430\u0437\u0446\u0430.
+        \u0415\u0441\u0442\u044c \u0443 \u043d\u0430\u0441 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u043e\u0433\u043e
+        \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u043f\u0435\u0447\u0438,
+        \u0434\u0430\u044e\u0449\u0438\u0435 \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044e\u0449\u0438\u0435
+        \u0441\u0430\u043c\u0443\u044e \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0443\u044e
+        \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0443: \u0441
+        \u0431\u044b\u0441\u0442\u0440\u044b\u043c \u043d\u0430\u0433\u0440\u0435\u0432\u043e\u043c;
+        \u0441 \u0441\u0438\u043b\u044c\u043d\u044b\u043c \u0438 \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u043c
+        \u0436\u0430\u0440\u043e\u043c; \u0441\u043e \u0441\u043b\u0430\u0431\u044b\u043c
+        \u0438 \u0440\u0430\u0432\u043d\u043e\u043c\u0435\u0440\u043d\u044b\u043c
+        \u043d\u0430\u0433\u0440\u0435\u0432\u043e\u043c; \u0440\u0430\u0437\u0434\u0443\u0432\u0430\u0435\u043c\u044b\u0435
+        \u043c\u0435\u0445\u0430\u043c\u0438; \u0441 \u0441\u0443\u0445\u0438\u043c
+        \u0438\u043b\u0438 \u0432\u043b\u0430\u0436\u043d\u044b\u043c \u0436\u0430\u0440\u043e\u043c
+        \u0438 \u0442\u043e\u043c\u0443 \u043f\u043e\u0434\u043e\u0431\u043d\u043e\u0435.
+        \u041d\u043e \u0432\u0430\u0436\u043d\u0435\u0435 \u0432\u0441\u0435\u0433\u043e
+        \u0442\u043e, \u0447\u0442\u043e \u043c\u044b \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u043c
+        \u0436\u0430\u0440\u2026","author_name":"Readmica","author_url":"http:\/\/readmica.com\/","views":2,"can_edit":true}]}}'
+    http_version: 
+  recorded_at: Sun, 20 Jan 2019 08:50:34 GMT
+recorded_with: VCR 4.0.0

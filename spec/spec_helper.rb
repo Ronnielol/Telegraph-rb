@@ -14,7 +14,7 @@ RSpec.configure do |config|
   require 'rspec/its'
   require 'webmock/rspec'
   require 'vcr'
-  require_relative '../lib/telegraph'
+  require_relative '../lib/telegraph_rb'
 
   WebMock.disable_net_connect!(allow_localhost: true)
 

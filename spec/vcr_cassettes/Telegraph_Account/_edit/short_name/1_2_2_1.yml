@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.telegra.ph/editAccountInfo?access_token=a24dbcafbd49a962e4a7f5842410afdb07e49f0f7ac108a3c68146e75ca5&author_name=new_author&author_url=http://newlink.com&short_name=new_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.12.2
+      Date:
+      - Sun, 20 Jan 2019 08:58:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '100'
+      Connection:
+      - keep-alive
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+      Strict-Transport-Security:
+      - max-age=15768000
+    body:
+      encoding: ASCII-8BIT
+      string: '{"ok":true,"result":{"short_name":"new_name","author_name":"new_author","author_url":"http:\/\/newlink.com\/"}}'
+    http_version: 
+  recorded_at: Sun, 20 Jan 2019 08:58:14 GMT
+recorded_with: VCR 4.0.0

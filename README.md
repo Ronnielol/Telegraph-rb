@@ -1,50 +1,91 @@
 # Telegraph-rb
 
-Telegra.ph API Ruby client
+Telegra.ph API Ruby client with built-in HTML converter.
 # Usage
 Setup existing Telegra.ph account like this:
 ```ruby
-telegraph_client = Telegraph.setup(secret_token)
+client = Telegraph.setup(secret_token)
 ```
-Or create new one:
+Or create a new one:
 ```ruby
-telegraph_account = Telegraph.create_account(short_name: 'Writer O.G')
-telegraph_client = telegraph_account.client
+account = Telegraph.create_account(short_name: 'Writer O.G')
 ```
-Now you can use following methods:
-### #create_page
+After setup you can use following methods:
+## Page
+### .create
+https://telegra.ph/api#createPage
 ```ruby
 page_content = [{:tag=>"h1", :children=>["Article Heading"]}
-telegraph_client.create_page(
+Page.create(
   title: 'My article'
-  author_name: 'Writer' 
+  author_name: 'Writer'
   author_url: 'http://writer.com'
   content: page_content
 )
 # => Telegraph::Page(title: 'My article', author_name: 'Writer', author_url: 'http://writer.com')
 ```
-### #edit_page
+To easily prepare content for a page you can use `Telegraph::HTMLConverter` module:
 ```ruby
-#Not implemented yet
+class HtmlToContent
+ extend Telegraph::HTMLConverter
+
+  def self.perform(html)
+    html_to_content(html)
+  end
+end
+
+html = "<p>Lorem ipsum dolor sit <b>amet</b>"
+content = HtmlToContent.perform(html)
+Page.create(title: 'My Article', content: content)
 ```
-### #get_page
+### .get
+https://telegra.ph/api#getPage
 ```ruby
-telegraph_client.get_page('Sample-Page-12-15')
-# => Telegraph::Page()
+page = Page.get(path: 'my-article-12-15')
+page.title
+#=> My Article
 ```
-### #get_page_list
+### .get_views
+https://telegra.ph/api#getViews
 ```ruby
-telegrap_client.get_page_list(limit: 1)
-# => #<Telegraph::PageList @total_count=0 @pages=[]>
+Page.get_views(path: 'my-article-12-15', year: 2019)
+#=> 33
 ```
-### #get_account_info
-Retruns Account object with all available fields (short_name, author_name, author_url, auth_url, page_count.)
+### .edit
+https://telegra.ph/api#editPage
 ```ruby
-telegraph_client.get_account_info
-# => Telegraph::Account @access_token="", @short_name="short name", @author_name="author name ", @auth_url="https://edit.telegra.ph/auth/XXXXXX", @author_url="http://author-url.com/", @page_count=100>
+page = Page.edit(path: 'my-article-12-15', title: 'New Article Title', content: content)
+page.title
+#=> 'New Article Title'
 ```
-### #edit_account_info
+## Account
+### .create
+Creates account without setupping the client
+https://telegra.ph/api#createAccount
 ```ruby
-telegraph_client.edit_account_info(short_name: 'new_name')
-# => Telegraph::Account short_name: 'new_name'
+account = Account.create(short_name: 'Writer O.G')
+account.client
+#=> nil
+```
+### .get
+https://telegra.ph/api#getAccountInfo
+```ruby
+account = Account.get
+account.short_name = 'Short Name'
+```
+### .edit
+https://telegra.ph/api#editAccountInfo
+```ruby
+account = Account.get
+account.edit(short_name: 'New Short Name')
+```
+## PageList
+### .get
+https://telegra.ph/api#getPageList
+```ruby
+page_list = PageList.get
+page_list.pages
+#=> [Telegraph::Page, Telegraph::Page]
+page_list.total_count
+#=> 2
 ```
