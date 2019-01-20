@@ -2,7 +2,7 @@
 
 Telegra.ph API Ruby client with built-in HTML converter.
 ```ruby
-require 'telegrpah_rb'
+require 'telegraph_rb'
 ```
 # Usage
 Setup existing Telegra.ph account like this:
