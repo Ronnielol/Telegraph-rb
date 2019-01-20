@@ -1,6 +1,9 @@
-# Telegraph-rb
+# telegraph_rb
 
 Telegra.ph API Ruby client with built-in HTML converter.
+```ruby
+require 'telegrpah_rb'
+```
 # Usage
 Setup existing Telegra.ph account like this:
 ```ruby
