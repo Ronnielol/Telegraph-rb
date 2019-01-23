@@ -79,8 +79,7 @@ account.short_name = 'Short Name'
 ### .edit
 https://telegra.ph/api#editAccountInfo
 ```ruby
-account = Account.get
-account.edit(short_name: 'New Short Name')
+Account.edit(short_name: 'New Short Name')
 ```
 ## PageList
 ### .get
